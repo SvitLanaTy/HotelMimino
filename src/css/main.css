@@ -4,6 +4,27 @@
   | default @import url()
   |============================
 */
+
+:root {
+  --accent-yellow: #f3c653;
+  --brown: #c79002;
+  --fon-lemon: #fffdee;
+  --fon-dark-lemon: #f0ecd6;
+  --color-footer: #0e0c07;
+
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+html *,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
 @import url('./reset.css');
 
 @import url('./header.css');
@@ -31,7 +52,3 @@
 /* room page */
 @import url('./room/room-hero.css');
 @import url('./room/amenities.css');
-
-:root {
-  --accent: red;
-}
