@@ -11,7 +11,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'src/index.html'),
         nested: resolve(__dirname, 'src/hotel.html'),
-        nested: resolve(__dirname, 'src/room.html'),
+        nestedTwo: resolve(__dirname, 'src/room.html'),
         nested: resolve(__dirname, 'src/restaurant.html'),
       },
     },
