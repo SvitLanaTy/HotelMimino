@@ -5,13 +5,14 @@ import FullReload from 'vite-plugin-full-reload';
 
 export default defineConfig({
   root: 'src',
-  rollupOptions: {
-    input: {
-      main: resolve(__dirname, 'src/index.html'),
-      nested: resolve(__dirname, 'src/restaurant.html'),
-    },
-  },
+
   build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'src/index.html'),
+        nested: resolve(__dirname, 'src/restaurant.html'),
+      },
+    },
     outDir: '../dist',
   },
   plugins: [injectHTML(), FullReload(['./src/**/**.html'])],
