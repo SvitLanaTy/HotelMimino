@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Vanilla App Template</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -12,9 +12,23 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <h1>try</h1>
+    <a href="./hotel.html">1</a>
+    <a href="./index.html">4</a>
+    <a href="./room.html">3</a>
+    <!-- Loads the specified .html file -->
+    <load src="./partials/header.html" />
+    <main>
+      <load src="./partials/restaurant/restaurant-hero.html" />
+      <load src="./partials/restaurant/about-kitchen.html" />
+      <load src="./partials/restaurant/menu.html" />
+    </main>
+
+    <!-- Loads the specified .html file -->
+    <load src="./partials/footer.html" />
+
+    <script type="module" src="/main.js"></script>
   </body>
 </html>
