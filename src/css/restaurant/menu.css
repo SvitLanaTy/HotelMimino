@@ -1,0 +1,235 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.menu > .container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fffdee;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.menu-table {
+  text-align: left;
+  margin-bottom: 32px;
+}
+.menu-title {
+  font-family: 'Times New Roman', serif;
+  font-size: 7vw;
+  line-height: calc(37 / 32);
+  color: #000000;
+  text-align: left;
+  margin-bottom: 32px;
+}
+.menu-group {
+}
+.left {
+  margin-bottom: 16px;
+}
+.menu-group-title {
+  font-family: 'Times New Roman', serif;
+  font-size: 5vw;
+  line-height: calc(23 / 20);
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+.menu-item-description {
+  max-width: 225px;
+  /* max-width: 291px; */
+}
+
+.menu-item-cost {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  justify-content: space-between;
+  min-width: 131px;
+  /* min-width: 165px; */
+}
+.menu-item-name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-bottom: 4px;
+}
+.menu-item-text {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: calc(12 / 10);
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.menu-item-weight {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  color: #000000;
+}
+.menu-item-price {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  line-height: calc(17 / 14);
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+@media screen and (min-width: 414px) {
+  .menu > .container {
+    width: 414px;
+  }
+  .menu-title {
+    font-size: 32px;
+  }
+  .menu-group-title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .menu > .container {
+    width: 1024px;
+    padding-left: 47px;
+    padding-right: 47px;
+    padding-top: 58px;
+    padding-bottom: 40px;
+    background-color: #f0ecd6;
+  }
+  .menu-title {
+    margin-bottom: 40px;
+  }
+  .left {
+    margin-bottom: 0;
+  }
+
+  @media screen and (min-width: 1024px) and (max-width: 1079px) {
+    .menu-table {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-bottom: 60px;
+  }
+  .menu-item:not(:last-child) {
+    margin-bottom: 12px;
+  }
+  .menu-item.finish:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}
+
+/*-------Restaurant Page--------*/
+/*-------Section Menu-----------*/
+
+.container {
+  /* display: flex;
+  flex-wrap: wrap;
+  gap: 140px; */
+  /* width: 1280px;
+  padding-left: 85px;
+  padding-right: 85px;
+  margin: 0 auto; */
+}
+.menu-table {
+  /* display: flex; */
+  /* flex-wrap: wrap;
+  gap: 140px; */
+
+  /* justify-content: space-between; */
+}
+/* .menu-title {
+  text-align: left;
+  font-family: "Times New Roman", serif;
+  font-size: 32px;
+  line-height: calc(37 / 32);
+  color: #000000;
+  margin-bottom: 32px;
+} */
+
+.menu-group-list:not(:last-child) {
+  margin-bottom: 16px;
+
+  /* max-width: 485px; */
+  /* min-width: calc((100% - 140px) / 2); */
+  /* min-width: 485px; */
+}
+
+.button-table-reservation {
+  display: inline-block;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  letter-spacing: 0.02em;
+  color: #f3c653;
+  padding: 14px 24px;
+  background-color: #000000;
+  border: 2px solid #fffdee;
+  border-radius: 25px;
+  cursor: pointer;
+}
