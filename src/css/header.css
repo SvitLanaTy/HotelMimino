@@ -1,0 +1,51 @@
+.header {
+  background-color: gray;
+}
+
+.header-svg {
+  display: none;
+}
+
+.header-svg-phone {
+  fill: var(--accent-yellow);
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+}
+
+.logo {
+  display: inline-block;
+  font-family: 'Film P3';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.08;
+  letter-spacing: 0.3em;
+  color: #ffffff;
+}
+
+.header-list {
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-item {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: var(--accent-yellow);
+}
+
+.header-link-tel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
