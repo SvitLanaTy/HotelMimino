@@ -47,7 +47,7 @@
 
 .prim-text {
   margin-bottom: 32px;
-  width: 258px;
+  max-width: 258px;
   font-family: 'Montserrat';
   font-weight: 600;
   font-size: 12px;
@@ -72,13 +72,17 @@
 }
 
 .btn-price {
-  display: block;
+  display: inline-block;
   width: 236px;
   margin-top: 16px;
   padding: 14px 37px;
   background-color: rgba(0, 0, 0, 0.4);
   border: 2px solid #ffffff;
   border-radius: 25px;
+}
+
+.about-room {
+  text-align: center;
 }
 
 @media screen and (min-width: 414px) {
