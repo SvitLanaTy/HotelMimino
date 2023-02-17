@@ -102,11 +102,7 @@ margin-bottom: 12px;
     height:245px;
 }
 
-.svg-arrows-kitchen
-{
-    display: flex;
-    justify-content: end;
-}
+
 
 .visually-hiden
 {
@@ -128,22 +124,23 @@ margin-bottom: 12px;
     {
         padding-top: 16px;
         padding-bottom: 28px;
+        position: relative;
     }
-    .container {
+    /* .container {
         max-width: 414px;
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
-      }
+      } */
 
 .p-kitchen-one
 {
-font-family: 'Times New Roman';
-font-size: 20px;
-line-height: 1.15;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    line-height: 1.15;
 
-margin-bottom: 12px;
-color: #B4B4B4;
+    margin-bottom: 12px;
+    color: #B4B4B4;
 }
 
 .logo-kitchen
@@ -243,11 +240,15 @@ color: #B4B4B4;
 
 .svg-arrows-kitchen
 {
-    display: flex;
-    justify-content: end;
+    max-width: 413px;
+    position: absolute;
+    left: 60%;
 }
 
-
+.svg-arrow-one
+{
+    margin-right: 33px;
+}
 
 
 
@@ -258,14 +259,15 @@ color: #B4B4B4;
     {
         padding-top: 16px;
         padding-bottom: 28px;
+        position: relative;
     }
 
-    .container {
+    /* .container {
         max-width: 1024px;
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
-      }
+      } */
 
     .p-kitchen-one
     {
@@ -381,19 +383,14 @@ color: #B4B4B4;
     
     .svg-arrows-kitchen
     {
-        display: flex;
-        justify-content: end;
+        max-width: 1024px;
+        position: absolute;
+        left: 70%;
     }
-
 
     .svg-arrow-one
     {
         margin-right: 33px;
-    }
-
-    .svg-arrow-two
-    {
-        margin-right: 28px;
     }
 
 
@@ -405,12 +402,12 @@ color: #B4B4B4;
 }
 @media screen and (min-width: 1024px)
 {
-    .container 
+    /* .container 
     {
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
-      }
+      } */
     .section-restuarant
     {
         position: relative;
@@ -562,18 +559,14 @@ color: #B4B4B4;
     
     .svg-arrows-kitchen
     {
-        display: flex;
-        justify-content: end;
+        position: absolute;
+        left: 82%;
     }
-
+     
 
     .svg-arrow-one
     {
         margin-right: 33px;
     }
 
-    .svg-arrow-two
-    {
-        margin-right: 63px;
-    }
 }
