@@ -61,7 +61,7 @@
 .contacts-address-block {
   display: flex;
   align-items: center;
-  padding: 12px 6px 11px;
+  padding: 9px 6px 7px;
 
   background-color: #ffffff;
   border: 0.5px solid var(--accent-yellow);
@@ -76,8 +76,13 @@
   width: 260px;
 }
 
+.contacts-tablet-block-width {
+  padding-left: 10px;
+  padding-right: 8px;
+}
+
 .address-icon {
-  margin-right: 8px;
+  margin-right: 10px;
 
   fill: var(--brown);
 }
@@ -109,7 +114,12 @@
   padding-bottom: 56.25%;
   position: relative;
   height: 0;
+
+  border: 1px solid #bababa;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
 }
+
 .map-thumb iframe {
   left: 0;
   top: 0;
@@ -118,7 +128,7 @@
   position: absolute;
 }
 
-@media screen and (min-width: 414px) {
+@media screen and (min-width: 414px) and (max-width: 1023px) {
   .contacts-tel-text {
     margin-bottom: 0;
   }
@@ -139,5 +149,77 @@
 
   .contacts-rest-block {
     transform: translateX(-115px);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .address-section {
+    padding-top: 56px;
+    padding-bottom: 40px;
+  }
+
+  .contacts-logo {
+    font-size: 64px;
+    line-height: calc(69 / 64);
+
+    margin-bottom: 8px;
+  }
+
+  .contacts-post-logo {
+    margin-bottom: 52px;
+  }
+
+  .contacts-address-list {
+    margin-bottom: 0px;
+  }
+
+  .contacts-block-width {
+    width: 264px;
+  }
+
+  .contacts-tel-link + .contacts-tel-link {
+    margin-left: 16px;
+  }
+
+  .contacts-tablet-block-width {
+    width: 285px;
+  }
+
+  .contacts-address-text {
+    max-width: 233px;
+    color: #494848;
+  }
+
+  .map-thumb {
+    width: 535px;
+    padding-bottom: 44.04%;
+  }
+
+  .address-section > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .address-section {
+    padding-top: 56px;
+    padding-bottom: 73px;
+  }
+
+  .contacts-logo {
+    margin-bottom: 16px;
+  }
+
+  .contacts-post-logo {
+    font-size: 20px;
+    line-height: calc(24 / 20);
+    margin-bottom: 40px;
+  }
+
+  .map-thumb {
+    width: 634px;
+    padding-bottom: 36.94%;
   }
 }
