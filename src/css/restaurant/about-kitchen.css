@@ -1,12 +1,12 @@
 
-
+/* 
 .container {
     margin-right: auto;
     margin-left: auto;
     width: auto;
     padding-left: 15px;
     padding-right: 15px;
-  }
+  } */
 
 .p-kitchen-one
 {
@@ -260,10 +260,10 @@ margin-bottom: 12px;
 }
 
 @media screen and (min-width: 414px) and (max-width: 1023px) {
-    .container {
+    /* .container {
       max-width: 414px;
     }
-  
+   */
 
 
     .section-restuarant
@@ -414,11 +414,11 @@ margin-bottom: 12px;
 
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .container {
+    /* .container {
       max-width: 1024px;
       padding-left: 47px;
       padding-right: 47px;
-    }
+    } */
 
     
     .section-restuarant
@@ -585,11 +585,11 @@ margin-bottom: 12px;
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
+    /* .container {
       max-width: 1280px;
       padding-left: 85px;
       padding-right: 85px;
-    }
+    } */
 
     
     .section-restuarant
