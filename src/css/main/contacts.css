@@ -1,0 +1,157 @@
+.container {
+  max-width: 414px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.address-section {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.contacts-logo {
+  display: inline-block;
+  font-family: 'Film P3';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: calc(43 / 40);
+  letter-spacing: 0.3em;
+  color: #494848;
+
+  margin-bottom: 12px;
+}
+
+.contacts-post-logo {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  letter-spacing: 0.02em;
+  color: #7a7a7a;
+
+  margin-bottom: 16px;
+}
+
+.contacts-tel-text {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  line-height: calc (24 / 20);
+  letter-spacing: 0.02em;
+  color: #c79002;
+}
+
+.contacts-address-list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.contacts-address-item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.contacts-address-item:nth-child(1) {
+  margin-bottom: 24px;
+}
+
+.contacts-address-item:nth-child(2) {
+  margin-bottom: 48px;
+}
+
+.contacts-address-block {
+  display: flex;
+  align-items: center;
+  padding: 12px 8px 11px;
+
+  background-color: #ffffff;
+  border: 0.5px solid var(--accent-yellow);
+  border-radius: 2px;
+}
+
+.contacts-rest-block {
+  width: 146px;
+}
+
+.contacts-block-width {
+  width: 261px;
+}
+
+.address-icon {
+  margin-right: 8px;
+
+  fill: #c79002;
+}
+
+.contacts-tel-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  letter-spacing: 0.02em;
+  color: #494848;
+}
+
+.contacts-tel-link + .contacts-tel-link {
+  margin-left: 12px;
+}
+
+.contacts-address-text {
+  max-width: 181px;
+
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: #494848;
+}
+
+.map-thumb {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-thumb iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+@media screen and (min-width: 414px) {
+  .contacts-address-block {
+    margin-left: auto;
+  }
+
+  .contacts-address-item {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .contacts-address-item:nth-child(1),
+  .contacts-address-item:nth-child(2) {
+    margin-bottom: 16px;
+  }
+
+  .contacts-rest-block {
+    transform: translateX(-115px);
+  }
+}
