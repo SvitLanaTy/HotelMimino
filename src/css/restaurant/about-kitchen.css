@@ -675,6 +675,11 @@ margin-bottom: 12px;
         top: -2%;
         left: 50%;
     }
+    .image-item-first
+    {
+        width: 522px;
+        height: 574px;
+    }
     .thumb-kitchen-one
     {
         align-items: center;
