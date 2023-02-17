@@ -1,4 +1,13 @@
 
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
 .p-kitchen-one
 {
 font-family: 'Times New Roman';
@@ -253,7 +262,13 @@ margin-bottom: 12px;
 
 
 }
-@media  screen and (min-width: 414px) {
+
+@media screen and (min-width: 414px) and (max-width: 1023px) {
+    .container {
+      max-width: 414px;
+    }
+  
+
 
     .section-restuarant
     {
@@ -400,14 +415,16 @@ margin-bottom: 12px;
 
 
 }
-@media screen and (min-width: 1024px)
-{
-    /* .container 
-    {
-        padding-left: 15px;
-        padding-right: 15px;
-        margin: 0 auto;
-      } */
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .container {
+      max-width: 1024px;
+      padding-left: 47px;
+      padding-right: 47px;
+    }
+
+    
     .section-restuarant
     {
         position: relative;
@@ -570,3 +587,12 @@ margin-bottom: 12px;
     }
 
 }
+
+@media screen and (min-width: 1280px) {
+    .container {
+      max-width: 1280px;
+      padding-left: 85px;
+      padding-right: 85px;
+    }
+  }
+  
