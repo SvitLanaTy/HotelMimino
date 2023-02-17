@@ -1,3 +1,10 @@
+:root {
+  --color-logo: #494848;
+  --color-secondtxt: #b4b4b4;
+  --color-title: #000000;
+  --color-primtxt: #7a7a7a;
+}
+
 .room-two {
   margin: 0 auto;
   max-width: 1440px;
