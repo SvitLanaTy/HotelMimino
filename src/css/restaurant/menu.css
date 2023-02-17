@@ -28,7 +28,7 @@
   margin-bottom: 32px;
 }
 
-.left {
+.menu-left {
   margin-bottom: 16px;
 }
 .menu-group-title {
@@ -59,11 +59,11 @@
   margin-top: auto;
   margin-bottom: auto;
   justify-content: space-between;
-  min-width: 130px;
+  min-width: 31vw;
 }
 .menu-item-name {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 3.5vw;
   line-height: calc(17 / 14);
   letter-spacing: 0.02em;
   color: #000000;
@@ -71,45 +71,40 @@
 }
 .menu-item-text {
   font-weight: 400;
-  font-size: 10px;
+  font-size: 2.5vw;
   line-height: calc(12 / 10);
   letter-spacing: 0.02em;
   color: #000000;
 }
 .menu-item-weight {
   font-weight: 300;
-  font-size: 14px;
+  font-size: 3.5vw;
   line-height: calc(17 / 14);
   color: #000000;
 }
 .menu-item-price {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 3.5vw;
   line-height: calc(17 / 14);
   letter-spacing: 0.02em;
   color: #000000;
 }
-.button-table-reservation {
+.menu-button-reservation {
   display: inline-block;
   font-family: inherit;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 4vw;
   line-height: calc(20 / 16);
   letter-spacing: 0.02em;
   color: #f3c653;
-  padding: 14px 24px;
+  padding: 3vw 6vw;
   background-color: #000000;
   border: 2px solid #fffdee;
   border-radius: 25px;
+  cursor: pointer;
 }
-.button-table-reservation:hover,
-.button-table-reservation:focus {
-  background-color: #ffffff;
-  border-color: #f3c653;
-}
-
-.button-table-reservation:active {
+.menu-button-reservation:hover,
+.menu-button-reservation:focus {
   background-color: #ffffff;
   border-color: #f3c653;
 }
@@ -123,6 +118,21 @@
   }
   .menu-group-title {
     font-size: 20px;
+  }
+  .menu-button-reservation {
+    font-size: 16px;
+    padding: 14px 24px;
+  }
+  .menu-item-name,
+  .menu-item-price,
+  .menu-item-weight {
+    font-size: 14px;
+  }
+  .menu-item-text {
+    font-size: 10px;
+  }
+  .menu-item-cost {
+    min-width: 130px;
   }
 }
 
@@ -145,7 +155,7 @@
   .menu-group-list:not(:last-child) {
     margin-bottom: 20px;
   }
-  .left {
+  .menu-left {
     margin-bottom: 0;
   }
   .menu-table {
@@ -159,7 +169,7 @@
     .menu-table {
       margin-bottom: 40px;
     }
-    .left .menu-item-cost {
+    .menu-left .menu-item-cost {
       min-width: 145px;
     }
     .right .menu-item-cost {
