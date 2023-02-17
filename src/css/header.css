@@ -1,6 +1,7 @@
 .header {
-  background-color: gray;
+  background-color: rgb(1, 20, 200, 0.3);
   padding-top: 16px;
+  padding-bottom: 9px;
 }
 
 .header-phone-nam {
@@ -13,13 +14,12 @@
 
 .header-svg-phone {
   fill: var(--accent-yellow);
-  /* margin-left: 6px; */
 }
 
 .header-wrap {
   display: flex;
-  /* justify-content: space-between; */
-  justify-content: center;
+  justify-content: space-between;
+  /* justify-content: center; */
   align-items: flex-end;
   column-gap: 10px;
 }
@@ -37,12 +37,12 @@
 
 .header-list {
   display: flex;
-  /* column-gap: 20px; */
   justify-content: center;
   align-items: center;
 }
 
 .header-item {
+  display: flex;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
@@ -54,4 +54,53 @@
 
 .header-link-tel {
   display: flex;
+}
+/* =================MEDIA MOBIL===+++++++++++++++ */
+
+@media screen and (min-width: 414px) and (max-width: 1023px) {
+  .header-list {
+    column-gap: 20px;
+  }
+
+  .header-svg-phone {
+    margin-left: 6px;
+  }
+}
+/* ++++++=================MEDIA TABLET===============+++++++= */
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .header-logo {
+    max-width: 127px;
+    font-size: 40px;
+    color: var(--fon-lemon);
+  }
+
+  .header-phone-nam {
+    display: inline-block;
+    margin-left: 4px;
+  }
+
+  .header-svg-nam {
+    display: flex;
+    margin-left: 32px;
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    border-radius: 2px;
+    padding: 12px 8px;
+  }
+
+  .header-list {
+    column-gap: 72px;
+  }
+
+  .header-item {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    line-height: 1.2;
+  }
 }
