@@ -11,7 +11,7 @@
   font-size: 40px;
   line-height: calc(43 / 40);
   letter-spacing: 0.3em;
-  color: #494848;
+  color: var(--color-logo);
 
   margin-bottom: 12px;
 }
@@ -22,7 +22,7 @@
   font-size: 16px;
   line-height: calc(20 / 16);
   letter-spacing: 0.02em;
-  color: #7a7a7a;
+  color: var(--color-primtxt);
 
   margin-bottom: 16px;
 }
@@ -61,7 +61,7 @@
 .contacts-address-block {
   display: flex;
   align-items: center;
-  padding: 9px 6px 7px;
+  padding: 7px 6px 7px;
 
   background-color: #ffffff;
   border: 0.5px solid var(--accent-yellow);
@@ -92,7 +92,7 @@
   font-size: 14px;
   line-height: calc(17 / 14);
   letter-spacing: 0.02em;
-  color: #494848;
+  color: var(--color-logo);
 }
 
 .contacts-tel-link + .contacts-tel-link {
@@ -106,7 +106,7 @@
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.01em;
-  color: #494848;
+  color: var(--color-logo);
 }
 
 .map-thumb {
@@ -115,7 +115,7 @@
   position: relative;
   height: 0;
 
-  border: 1px solid #bababa;
+  border: 1px solid var(--color-secondtxt);
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
 }
@@ -187,7 +187,7 @@
 
   .contacts-address-text {
     max-width: 233px;
-    color: #494848;
+    color: var(--color-logo);
   }
 
   .map-thumb {
