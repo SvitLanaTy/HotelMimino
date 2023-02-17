@@ -105,6 +105,7 @@ margin-bottom: 12px;
 {
     overflow: hidden;
 }
+
 .image-kitchen-4
 {
     width:245px; 
@@ -135,12 +136,7 @@ margin-bottom: 12px;
         padding-bottom: 28px;
         position: relative;
     }
-    /* .container {
-        max-width: 414px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin: 0 auto;
-      } */
+  
 
 .p-kitchen-one
 {
@@ -577,7 +573,7 @@ margin-bottom: 12px;
     .svg-arrows-kitchen
     {
         position: absolute;
-        left: 82%;
+        left: 80%;
     }
      
 
@@ -593,6 +589,122 @@ margin-bottom: 12px;
       max-width: 1280px;
       padding-left: 85px;
       padding-right: 85px;
+    }
+
+    
+    .section-restuarant
+    {
+        position: relative;
+        padding-top:120px;
+        padding-bottom: 39px;
+    }
+    
+    .thumb-kitchen-second
+    {
+        width:439px;
+    }
+
+    .p-kitchen-one
+    {
+        font-family: 'Times New Roman';
+        font-size: 32px;
+        line-height: 1.15;
+        
+        margin-bottom: 12px;
+        color: #B4B4B4;
+
+    }
+    
+    .logo-kitchen
+    {
+        font-family: 'Film P3';
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 1.075;
+      
+        letter-spacing: 0.3em;
+    
+        color: #494848;
+
+    }
+    
+    .p-kitchen-second
+    {
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 16px;
+        line-height:1.25;
+        letter-spacing: 0.02em;
+    
+        color: #7A7A7A;
+    
+    
+        width: 439px;
+        height: 80px;
+    
+       
+     
+        margin-top: 12px;
+    }
+    
+    .p-kitchen-three
+    {
+ 
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.02em;
+    
+        color: var(--brown);
+
+        width: 312px;
+        height: 122px;
+        margin-left: 48px;
+    }
+    .image-kitchen-second
+    {
+        width: 460px;
+        height: 574px;
+        margin-right: 0;
+    }
+    .image-kitchen-first
+    {
+        margin-bottom: 0;
+        position: absolute;
+        top: -2%;
+        left: 50%;
+    }
+    .thumb-kitchen-one
+    {
+        align-items: center;
+    }
+    .thumb-kitchen-second
+    {
+        margin-bottom: 162px;
+    }
+    .slider-kitchen
+    {
+        justify-content: end;
+        margin-bottom: 104px;
+    }
+    .image-kitchen-item-3
+    {
+        width: 254px;
+    }
+    .image-kitchen-item-4
+    {
+        width: 254px;
+    }
+    .svg-arrows-kitchen
+    {
+        position: absolute;
+        left: 74%;
+        top: 91%;
+    }
+    .svg-arrow-one
+    {
+        margin-right:33px ;
     }
   }
   
