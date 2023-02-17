@@ -1,5 +1,9 @@
 .header {
-  background-color: gray;
+  background-color: transparent;
+}
+
+.header-phone-nam{
+  display: none;
 }
 
 .header-svg {
@@ -8,6 +12,8 @@
 
 .header-svg-phone {
   fill: var(--accent-yellow);
+  margin-left: 6px;
+  
 }
 
 .header-wrap {
@@ -25,6 +31,7 @@
   line-height: 1.08;
   letter-spacing: 0.3em;
   color: #ffffff;
+  max-width: 114px;
 }
 
 .header-list {
@@ -46,6 +53,4 @@
 
 .header-link-tel {
     display: flex;
-    justify-content: center;
-    align-items: center;
 }

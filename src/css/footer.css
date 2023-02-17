@@ -21,10 +21,16 @@
     font-size: 40px;
     line-height: 1.08;
     letter-spacing: 0.3em;
-    color: #f3c653;
-    padding-top: 98px;
-    padding-left: 59px;
+    color:var(--accent-yellow);
+    max-width: 127px;
+  }
+
+  .footer-logo-link {
     margin-right: 85px;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+    
   }
   
   .footer-nav-list {
