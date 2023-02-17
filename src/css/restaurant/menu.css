@@ -172,7 +172,7 @@
     .menu-left .menu-item-cost {
       min-width: 145px;
     }
-    .right .menu-item-cost {
+    .menu-right .menu-item-cost {
       min-width: 160px;
     }
   }
@@ -201,7 +201,7 @@
   .menu-item:not(:last-child) {
     margin-bottom: 12px;
   }
-  .right .menu-item:not(:last-child) {
+  .menu-right .menu-item:not(:last-child) {
     margin-bottom: 9px;
   }
   .menu-item-cost {
