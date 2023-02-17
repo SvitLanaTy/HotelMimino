@@ -41,6 +41,10 @@
   --fon-lemon: #fffdee;
   --fon-dark-lemon: #f0ecd6;
   --color-footer: #0e0c07;
+  --color-logo: #494848;
+  --color-secondtxt: #b4b4b4;
+  --color-title: #000000;
+  --color-primtxt: #7a7a7a;
 
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
