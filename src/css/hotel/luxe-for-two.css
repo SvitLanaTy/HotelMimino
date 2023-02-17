@@ -20,7 +20,7 @@
   font-family: 'Film P3', sans-serif;
   display: block;
   margin-bottom: 32px;
-
+  width: 127px;
   font-size: 40px;
   line-height: 1.07;
   letter-spacing: 0.3em;
@@ -76,6 +76,11 @@
   border: 2px solid var(--fon-lemon);
   border-radius: 25px;
   color: var(--accent-yellow);
+
+  transition-property: background-color, border;
+  transition-duration: 250ms, 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1),
+    cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .room-luxe-price {
@@ -83,6 +88,14 @@
   min-width: 236px;
   margin-top: 16px;
   padding: 14px 37px;
+}
+
+.room-luxe-details:hover,
+.room-luxe-price:hover,
+.room-luxe-details:focus,
+.room-luxe-price:focus {
+  background-color: #ffffff;
+  border: 2px solid var(--accent-yellow);
 }
 
 @media screen and (min-width: 414px) {

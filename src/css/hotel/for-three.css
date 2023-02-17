@@ -7,6 +7,7 @@
 
 .room-three-secondtxt {
   font-family: 'Times New Roman', serif;
+  text-align: right;
   padding-top: 32px;
   margin-bottom: 8px;
   font-size: 20px;
@@ -17,6 +18,8 @@
 .room-three-logo {
   font-family: 'Film P3', sans-serif;
   display: block;
+  width: 127px;
+  margin-left: auto;
   margin-bottom: 32px;
   font-size: 40px;
   line-height: 1.07;
@@ -28,6 +31,7 @@
 .room-three-title {
   font-family: 'Times New Roman', serif;
   margin-bottom: 12px;
+  text-align: right;
   font-size: 24px;
   line-height: 1.16;
   letter-spacing: 0.05em;
@@ -37,6 +41,8 @@
 
 .room-three-primtext {
   margin-bottom: 32px;
+  margin-left: auto;
+  margin-right: 58px;
   max-width: 242px;
   font-weight: 600;
   font-size: 12px;
@@ -65,12 +71,25 @@
   border: 2px solid var(--fon-lemon);
   border-radius: 25px;
   color: var(--accent-yellow);
+
+  transition-property: background-color, border;
+  transition-duration: 250ms, 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1),
+    cubic-bezier(0.4, 0, 0.2, 1);
 }
 .room-three-price {
   font-family: inherit;
   min-width: 236px;
   margin-top: 16px;
   padding: 14px 37px;
+}
+
+.room-three-details:hover,
+.room-three-price:hover,
+.room-three-details:focus,
+.room-three-price:focus {
+  background-color: #ffffff;
+  border: 2px solid var(--accent-yellow);
 }
 
 @media screen and (min-width: 1024px) {
