@@ -1,6 +1,6 @@
  
 .header {
-  background-color: transparent;
+  background-color: gray;
 }
 
 .header-phone-nam{
@@ -13,18 +13,20 @@
 
 .header-svg-phone {
   fill: var(--accent-yellow);
-  margin-left: 6px;
+  /* margin-left: 6px; */
   
 }
 
 .header-wrap {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
   align-items: center;
-  padding-top: 16px;
+  column-gap: 10px;
+  
 }
 
-.logo {
+.header-logo {
   display: inline-block;
   font-family: 'Film P3';
   font-weight: 700;
@@ -37,7 +39,7 @@
 
 .header-list {
   display: flex;
-  column-gap: 20px;
+  /* column-gap: 20px; */
   justify-content: center;
   align-items: center;
 }
