@@ -1,5 +1,8 @@
 /* ========== MOBILE ========== */
-
+.amenities-section {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .amenities-container {
   width: 100%;
   margin-left: auto;
@@ -82,6 +85,9 @@
   color: #000000;
 }
 .amenities-link {
+  display: flex;
+  align-items: center;
+  position: relative;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -89,17 +95,31 @@
   letter-spacing: 0.02em;
   color: #c79002;
 }
+.amenities-link:hover,
+.amenities-link:focus {
+  color: #f3c653;
+}
 .amenities-link::after {
-  display: block;
+  /* position: absolute; */
+  display: inline-block;
   content: '';
-  background-image: url();
+  width: 24px;
+  height: 24px;
+  background-color: #c79002;
+  margin-left: 16px;
+  /* top: 0;
+  right: -32px; */
 }
 
 /* ========== TABLET ========== */
 
 @media screen and (min-width: 1024px) {
+  .amenities-section {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
   .amenities-container {
-    width: 910px;
+    width: 960px;
   }
   .amenities-text {
     width: 757px;
@@ -125,12 +145,28 @@
   .amenities-bottom {
     align-items: end;
   }
+  .amenities-btn {
+    font-size: 24px;
+    line-height: 1.2em;
+  }
+  .amenities-link {
+    font-size: 20px;
+    line-height: 1.2em;
+  }
 }
 @media screen and (min-width: 1280px) {
+  .amenities-section {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
   .amenities-container {
-    width: 959px;
+    width: 1026px;
   }
   .amenities-double-text {
     gap: 159px;
+  }
+  .amenities-item-text {
+    min-width: 400px;
+    max-height: 83px;
   }
 }
