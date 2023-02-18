@@ -92,7 +92,7 @@
 
 .hero-btn {
   display: inline-block;
-  padding: 14px 35px;
+  padding: 14px 24px;
 
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -130,7 +130,7 @@
 .hero-loc-icon {
   fill: var(--accent-yellow);
   margin-right: 8px;
-  margin-left: 5px;
+  margin-left: 8px;
 }
 
 .hero-address {
@@ -153,4 +153,158 @@
 
 .hero-soc-icons {
   fill: var(--accent-yellow);
+}
+
+/* ---------- Mobile - nothing --------------- */
+
+/* ---------- Tablet --------------- */
+@media screen and (min-width: 415px) and (max-width: 1024px) {
+  .main-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../../img/homepage/hero-bg-tab.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .main-hero {
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url(../../img/homepage/hero-bg-tab-2x.jpg);
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-container {
+    max-width: 960px;
+  }
+
+  .main-hero {
+    padding-top: 188px;
+    padding-bottom: 15px;
+  }
+
+  .hero-title {
+    margin-bottom: 16px;
+
+    font-size: 128px;
+    line-height: 1.08;
+  }
+
+  .main-hero-subheading {
+    margin-bottom: 56px;
+
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+
+  .hero-motto {
+    margin-bottom: 145px;
+
+    font-size: 36px;
+    line-height: 1.14;
+    letter-spacing: 0.05em;
+  }
+
+  .hero-btn-list {
+    flex-direction: row;
+    gap: 40px;
+
+    justify-content: flex-end;
+    margin-bottom: 25px;
+  }
+
+  .hero-location {
+    top: 568px;
+    right: none;
+    left: 47px;
+    width: 285px;
+    height: 64px;
+  }
+
+  .hero-loc-icon {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .hero-address {
+    font-size: 16px;
+  }
+
+  .hero-soc-list {
+    gap: 20px;
+    margin-left: 0px;
+  }
+}
+
+/* ---------- Desktop --------------- */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .main-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../../img/homepage/hero-bg-tab.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .main-hero {
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url(../../img/homepage/hero-bg-tab-2x.jpg);
+    }
+  }
+}
+
+@media screen and (min-width: 1280x) {
+  .main-container {
+    max-width: 1140px;
+  }
+
+  .main-hero {
+    padding-top: 164px;
+    padding-bottom: 65px;
+  }
+
+  .hero-title {
+    margin-bottom: 32px;
+  }
+
+  .main-hero-subheading {
+    margin-bottom: 64px;
+  }
+
+  .hero-btn-list {
+    gap: 60px;
+    margin-bottom: 65px;
+  }
+
+  .hero-btn {
+    padding: 14px 35px;
+  }
+
+  .hero-location {
+    top: 568px;
+    right: none;
+    left: 85px;
+    height: 56px;
+  }
+
+  .hero-loc-icon {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .hero-address {
+    font-size: 16px;
+  }
+
+  .hero-soc-list {
+    display: none;
+  }
 }
