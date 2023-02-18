@@ -118,6 +118,7 @@
 }
 .hotel-details-button-second
 {
+    text-align: center;
     color: var(--accent-yellow);
     background: rgba(0, 0, 0, 0.4);
     /* White */
@@ -294,6 +295,8 @@
     }
     .hotel-details-button-second
     {
+        cursor: pointer;
+        text-align: center;
         color: var(--accent-yellow);
         background: rgba(0, 0, 0, 0.4);
         /* White */
@@ -450,6 +453,8 @@
     }
     .hotel-details-button-second
     {
+        cursor: pointer;
+        text-align: center;
         color: var(--accent-yellow);
         background: rgba(0, 0, 0, 0.4);
         /* White */
@@ -607,6 +612,10 @@
     }
     .hotel-details-button-second
     {
+        padding-top: 14px;
+        padding-bottom: 14px;
+        cursor: pointer;
+        text-align: center;
         color: var(--accent-yellow);
         background: rgba(0, 0, 0, 0.4);
         /* White */
