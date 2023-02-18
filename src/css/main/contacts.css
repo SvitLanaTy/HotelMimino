@@ -61,7 +61,7 @@
 .contacts-address-block {
   display: flex;
   align-items: center;
-  padding: 7px 6px 7px;
+  padding: 9px 6px 7px;
 
   background-color: #ffffff;
   border: 0.5px solid var(--accent-yellow);
@@ -82,7 +82,7 @@
 }
 
 .address-icon {
-  margin-right: 10px;
+  margin-right: 8px;
 
   fill: var(--brown);
 }
