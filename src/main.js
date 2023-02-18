@@ -1,1 +1,3 @@
-console.log("it's work");
+import './js/modal';
+import './js/wow';
+import './js/vik';
