@@ -1,15 +1,8 @@
 /*-------Restaurant Page--------*/
 /*-------Section Menu-----------*/
 
-/* body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #fffdee;
-} */
-
 .menu > .container {
   width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
   padding-top: 32px;
   padding-bottom: 32px;
   margin: 0 auto;
@@ -23,7 +16,7 @@
   font-family: 'Times New Roman', serif;
   font-size: 7vw;
   line-height: calc(37 / 32);
-  color: #000000;
+  color: var(--color-title);
   text-align: left;
   margin-bottom: 32px;
 }
@@ -35,7 +28,7 @@
   font-family: 'Times New Roman', serif;
   font-size: 5vw;
   line-height: calc(23 / 20);
-  color: #000000;
+  color: var(--color-title);
   margin-bottom: 16px;
 }
 .menu-group-list:not(:last-child) {
@@ -66,7 +59,7 @@
   font-size: 3.5vw;
   line-height: calc(17 / 14);
   letter-spacing: 0.02em;
-  color: #000000;
+  color: var(--color-title);
   margin-bottom: 4px;
 }
 .menu-item-text {
@@ -74,20 +67,20 @@
   font-size: 2.5vw;
   line-height: calc(12 / 10);
   letter-spacing: 0.02em;
-  color: #000000;
+  color: var(--color-title);
 }
 .menu-item-weight {
   font-weight: 300;
   font-size: 3.5vw;
   line-height: calc(17 / 14);
-  color: #000000;
+  color: var(--color-title);
 }
 .menu-item-price {
   font-weight: 700;
   font-size: 3.5vw;
   line-height: calc(17 / 14);
   letter-spacing: 0.02em;
-  color: #000000;
+  color: var(--color-title);
 }
 .menu-button-reservation {
   display: inline-block;
@@ -96,23 +89,26 @@
   font-size: 4vw;
   line-height: calc(20 / 16);
   letter-spacing: 0.02em;
-  color: #f3c653;
+  color: var(--accent-yellow);
   padding: 3vw 6vw;
-  background-color: #000000;
-  border: 2px solid #fffdee;
+  background-color: var(--color-title);
+  border: 2px solid var(--fon-lemon);
   border-radius: 25px;
   cursor: pointer;
+  transition: background-color 200ms linear, border-color 200ms linear;
 }
 .menu-button-reservation:hover,
 .menu-button-reservation:focus {
-  background-color: #ffffff;
-  border-color: #f3c653;
+  background-color: var(--hover-and-clik);
+  border-color: var(--accent-yellow);
+}
+
+.menu-button-reservation {
+  position: sticky;
+  bottom: 10px;
 }
 
 @media screen and (min-width: 414px) {
-  .menu > .container {
-    width: 414px;
-  }
   .menu-title {
     font-size: 32px;
   }
@@ -138,12 +134,9 @@
 
 @media screen and (min-width: 1024px) {
   .menu > .container {
-    width: 1024px;
-    padding-left: 47px;
-    padding-right: 47px;
     padding-top: 58px;
     padding-bottom: 40px;
-    background-color: #f0ecd6;
+    background-color: var(--fon-dark-lemon);
     text-align: right;
   }
   .menu-title {
@@ -180,9 +173,6 @@
 
 @media screen and (min-width: 1280px) {
   .menu > .container {
-    width: 1280px;
-    padding-left: 85px;
-    padding-right: 85px;
     padding-bottom: 60px;
   }
   .menu-item-name {
