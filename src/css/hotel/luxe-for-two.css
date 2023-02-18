@@ -1,6 +1,6 @@
 .room-luxe {
   margin: 0 auto;
-  max-width: 1440px;
+  max-width: 1280px;
   padding-bottom: 32px;
 
   background-color: var(--fon-lemon);
@@ -151,7 +151,34 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .room-luxe {
+    padding-bottom: 182px;
+  }
+
+  .room-luxe-secondtxt {
+    padding-top: 72px;
+  }
+
+  .room-luxe-title {
+    font-size: 36px;
+    margin-bottom: 24px;
+  }
+
+  .room-luxe-logo {
+    margin-bottom: 72px;
+  }
+
+  .room-luxe-primtxt {
+    max-width: 400px;
+    font-weight: 700;
+  }
+
   .room-luxe-photo {
     width: 460px;
+    right: 180px;
+  }
+
+  .about-room-luxe {
+    margin-top: 255px;
   }
 }

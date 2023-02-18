@@ -1,6 +1,6 @@
 .room-two {
   margin: 0 auto;
-  max-width: 1440px;
+  max-width: 1280px;
   padding-bottom: 32px;
   background-color: #fffdee;
 }
@@ -136,7 +136,34 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .room-two {
+    padding-bottom: 182px;
+  }
+
+  .room-two-secondtext {
+    padding-top: 72px;
+  }
+
+  .room-two-title {
+    font-size: 36px;
+    margin-bottom: 24px;
+  }
+
+  .room-two-logo {
+    margin-bottom: 72px;
+  }
+
+  .room-two-primtext {
+    max-width: 400px;
+    font-weight: 700;
+  }
+
   .room-two-photo {
     width: 460px;
+    right: 180px;
+  }
+
+  .about-room-two {
+    margin-top: 255px;
   }
 }
