@@ -1,7 +1,3 @@
-/* .restaurant-hero {
-  position: relative;
-} */
-
 .restaurant-container {
   position: relative;
   padding-left: 15px;
@@ -159,7 +155,7 @@
 /* ---------- Mobile - nothing --------------- */
 
 /* ---------- Tablet --------------- */
-@media screen and (min-width: 415px) and (max-width: 1024px) {
+@media screen and (min-width: 415px) {
   .restaurant-hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url(../../img/restaurant/hero-bg-tab.jpg);
@@ -190,12 +186,31 @@
     padding-bottom: 15px;
   }
 
+  .hero-title {
+    margin-bottom: 16px;
+
+    font-size: 128px;
+    line-height: 1.08;
+  }
+
   .restaurant-hero-subheading {
     margin-bottom: 56px;
 
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+  }
+
+  .hero-motto {
+    margin-bottom: 145px;
+
+    font-size: 36px;
+    line-height: 1.14;
+    letter-spacing: 0.05em;
+  }
+
+  .restaurant-container > .hero-location {
+    top: 385px;
   }
 
   .hero-soc-list {
@@ -240,7 +255,8 @@
     margin-bottom: 64px;
   }
 
-  .hero-soc-list {
-    display: none;
+  .restaurant-container > .hero-location {
+    top: 395px;
   }
+
 }
