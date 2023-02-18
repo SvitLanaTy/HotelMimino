@@ -1,9 +1,8 @@
 
-/*  --- MAIN SECTIONS STYLES --- */
 
-.restaurant-details-section {
-    position: relative;
-    }
+
+/*  ---  SECTIONS MAIN STYLES --- */
+
     
     .rd-container {
         margin-right: auto;
@@ -36,14 +35,15 @@
           url(../../img/homepage/rest-details-bg-mob-2x.jpg);
       }
     }
-    
-    
-    /* --- TEXTS CONTENT --- */
-    
-    .rd-title-wrapper {
-        padding-top: 34px;
+
+        /* --- TEXTS CONTENT --- */
+
+
+    .rd-text-wrapper {
+        padding-top: 24px;
         padding-left: 125px;
      }
+
      .rd-logo-link {
         font-family: 'Film P3';
         font-weight: 700;
@@ -75,61 +75,55 @@
     }
     
     /* ---- SLIDER ----- */
-    
-    .rd-slider {
-        margin-left: 25px;
-    }
-    
-    .rd-dishes-photos-list {
+
+    .rd-slider-list {
         display: flex;
         gap: 20px;
         margin-bottom: 16px;
-    }
-    .rd-dishes-photos-item {
+
     }
 
-    .rd-dishes-photos-img {
+    .rd-slider-img {
+        border-radius: 2px;
         max-width: 274px;
     }
-    .rd-swiper-buttons-wrapper {
+    .rd-slider-buttons-wrapper {
         display: flex;
         gap: 32px;
+
     }
-    .rd-swiper-button-left,
-    .rd-swiper-button-right {
+    .rd-slider-button-left,
+    .rd-slider-button-right {
         width: 32px;
         height: 32px;
         background-color: transparent;
         border: none;
     }
-    .rd-button-left-icon,
-    .rd-button-right-icon {
+    .rd-slider-button-left-icon,
+    .rd-slider-button-right-icon {
         fill: #ffffff;
         transition-property: fill;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .rd-button-left-icon:hover,
-    .rd-button-left-icon:focus,
-    .rd-button-left-icon:active,
-    .rd-button-right-icon:hover,
-    .rd-button-right-icon:focus,
-    .rd-button-right-icon:active {
+    .rd-slider-button-left-icon:hover,
+    .rd-slider-button-left-icon:focus,
+    .rd-slider-button-left-icon:active,
+    .rd-slider-button-right-icon:hover,
+    .rd-slider-button-right-icon:focus,
+    .rd-slider-button-right-icon:active {
         fill: var(--accent-yellow);
     }
 
-     /* ---- BUTTONS ---- */
-    
-     .rd-buttons-wrapper {
-        position: absolute;
-        bottom: 40px;
+    /* ACTIVITY BUTTONS: MODAL & REST.MENU */
+
+    .rd-activity-buttons-wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 16px;
     }
-    
-    .rd-button {
+    .rd-activity-button {
         font-family: 'Montserrat';
         font-weight: 700;
         font-size: 16px;
@@ -147,7 +141,8 @@
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .rd-link {
+    
+    .rd-activity-link {
         font-family: 'Montserrat';
         font-weight: 700;
         font-size: 16px;
@@ -168,25 +163,34 @@
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
     
-    .rd-button:hover,
-    .rd-button:focus,
-    .rd-button:active,
-    .rd-link:hover,
-    .rd-link:focus,
-    .rd-link:active {
+    .rd-activity-button:hover,
+    .rd-activity-button:focus,
+    .rd-activity-button:active,
+    .rd-activity-link:hover,
+    .rd-activity-link:focus,
+    .rd-activity-link:active {
         background-color: #FFFFFF;
         border: 2px solid var(--accent-yellow);
     }
 
-/* ---- MEDIA --- */
+    /* ---- MEDIA --- */
 
-@media screen and (min-width: 414px) and (max-width: 1023px) {
+    /* ---mobile--- */
+    @media screen and (min-width: 200px) and (max-width: 1023px) {
+        .rd-slider {
+            margin-left: 25px;
+            margin-bottom: 32px;
+        }
+    }
+    @media screen and (min-width: 414px) and (max-width: 1023px) {
     .rd-container {
       max-width: 414px;
     }
-      }
+    }
     
-      @media screen and (min-width: 1024px) {
+    /* ---tablet--- */
+
+    @media screen and (min-width: 1024px) {
         .rd-container {
           max-width: 1024px;
           padding-left: 47px;
@@ -201,9 +205,17 @@
         max-width: 1024px;
         height: 620px;
       }
-      .rd-title-wrapper {
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .rd-background {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+          url(../../img/homepage/rest-details-bg-tab-2x.jpg);
+      }
+    }
+      .rd-text-wrapper {
         padding-top: 48px;
-        padding-left: 278px;
+        padding-left: 231px;
       }
       .rd-logo-link {
         font-size: 64px;
@@ -218,28 +230,32 @@
         max-width: 610px;
         margin-bottom: 40px;
     }
-    .rd-button,
-    .rd-link {
-        background-color: #000000;
+
+    .rd-flex-wrapper {
+        gap: 29px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        align-items: flex-end;
     }
 
-    .rd-slider {
-        position: absolute;
-        left: 312px;
-    }
-    .rd-dishes-photos-list {
+    .rd-slider-list {
         gap: 34px;
         margin-bottom: 24px;
     }
-        
-    
-    .rd-buttons-wrapper {
-        left: 47px;
-        bottom: 96px;
+
+    .rd-activity-buttons-wrapper {
+        margin-bottom: 55px;
+    }
+    .rd-activity-button,
+    .rd-activity-link {
+        background-color: #000000;
+    }
     }
 
-    }
-      @media screen and (min-width: 1280px) {
+    /* ---desktop--- */
+
+    @media screen and (min-width: 1280px) {
         .rd-container {
             max-width: 1280px;
             padding-left: 52px;
@@ -254,26 +270,27 @@
         max-width: 1280px;
         height: 620px;
       }
-      .rd-title-wrapper {
-        padding-top: 48px;
-        padding-left: 338px;
+      @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .rd-background {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+          url(../../img/homepage/rest-details-bg-2x.jpg);
       }
-      
-      .rd-slider {
-        position: absolute;
-        left: 342px;
     }
-    .rd-buttons-wrapper {
-        left: 85px;
-        bottom: 94px;
+      .rd-text-wrapper {
+        padding-left: 286px;
+      }
+    .rd-flex-wrapper {
+        padding-left: 33px;
+        gap: 32px;
+    }    
+    .rd-slider-list {
+        gap: 87px;
     }
-    .rd-button,
-    .rd-link {
+    .rd-activity-button,
+    .rd-activity-link {
         background-color: transparent;
         background: rgba(0, 0, 0, 0.4);
     }
-    .rd-dishes-photos-list {
-        gap: 87px;
-    }
-
     }
