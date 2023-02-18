@@ -92,6 +92,14 @@
     border: 2px solid #FFFFFF;
     border-radius: 25px;
     margin-bottom: 16px;
+
+    font-family: 'Montserrat';
+
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
 }
 .button-first:hover, :focus
 {
@@ -108,6 +116,15 @@
     height: 48px;
     border: 2px solid #FFFFFF;
     border-radius: 25px;
+
+
+    font-family: 'Montserrat';
+
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
 }
 .button-second:hover, :focus
 {
@@ -244,6 +261,16 @@
     border: 2px solid #FFFFFF;
     border-radius: 25px;
     margin-bottom: 16px;
+
+
+
+    font-family: 'Montserrat';
+
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
 }
 .button-first:hover, :focus
 {
@@ -260,6 +287,15 @@
     height: 48px;
     border: 2px solid #FFFFFF;
     border-radius: 25px;
+
+
+    font-family: 'Montserrat';
+
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
 }
 .button-second:hover, :focus
 {
@@ -378,6 +414,17 @@
         border: 2px solid #FFFFFF;
         border-radius: 25px;
         margin-bottom: 16px;
+
+
+
+        
+        font-family: 'Montserrat';
+
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+
+        letter-spacing: 0.02em;
     }
     .button-first:hover, :focus
     {
@@ -394,6 +441,15 @@
         height: 48px;
         border: 2px solid #FFFFFF;
         border-radius: 25px;
+
+
+        font-family: 'Montserrat';
+
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+
+        letter-spacing: 0.02em;
     }
     .button-second:hover, :focus
     {
@@ -512,6 +568,17 @@
         border: 2px solid #FFFFFF;
         border-radius: 25px;
         margin-bottom: 16px;
+
+
+
+        font-family: 'Montserrat';
+        font-style: normal;
+
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+
+        letter-spacing: 0.02em;
     }
     .button-first:hover, :focus
     {
@@ -528,6 +595,15 @@
         height: 48px;
         border: 2px solid #FFFFFF;
         border-radius: 25px;
+
+
+        font-family: 'Montserrat';
+
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+
+        letter-spacing: 0.02em;
     }
     .button-second:hover, :focus
     {
