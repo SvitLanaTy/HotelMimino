@@ -89,6 +89,7 @@
     {
         width: 293px;
         height: 322px;
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     }
     .kitchen-img-thumb-two
     {
@@ -101,6 +102,7 @@
         margin-right: 20px;
         width: 200px;
         height: 278px;
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     }
     .about-kitchen-p-third
     {
@@ -132,12 +134,14 @@
     .kitchen-img-item-third{
         margin-left:50px ;
         height: 245px;
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     }
 
     .kitchen-img-item-four
     {
         position: absolute;
         height: 245px;
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     }
     .kitchen-about-svg
     {
@@ -220,6 +224,7 @@
     {
         width: 293px;
         height: 322px;
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     }
     .kitchen-img-thumb-two
     {
@@ -232,6 +237,7 @@
         margin-right: 20px;
         width: 200px;
         height: 278px;
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     }
     .about-kitchen-p-third
     {
@@ -272,6 +278,7 @@
         margin-left:80px ;
         height: 245px;
         width: 245px;
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     }
 
     .kitchen-img-item-four
@@ -279,6 +286,7 @@
         position: absolute;
        
         height: 245px;
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     }
     .kitchen-about-svg
     {
@@ -378,6 +386,7 @@
 
         width: 400px;
         height: 524px;
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     }
     
     .kitchen-img-thumb-two
@@ -389,6 +398,7 @@
     {
         width: 350px;
         height: 500px;
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     }
     
     .kitchen-img-thumb-third
@@ -397,16 +407,19 @@
         justify-content: end;
         gap: 40px;
         margin-bottom: 40px;
+        
     }
     .kitchen-img-item-third
     {
         height: 194px;
         width: 194px;
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     }
     .kitchen-img-item-four
     {
         height: 194px;
         width: 194px;
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     }
     .kitchen-about-svg
     {
@@ -471,10 +484,7 @@
         margin-bottom: 162px;
     }
 
-    /* .kitchen-img-thumb-one
-    {
-
-    } */
+  
 
 
     .kitchen-img-item-one
@@ -484,6 +494,7 @@
         position: absolute;
         left: 50%;
         top: -14%;
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     }
 
 
@@ -500,8 +511,18 @@
     {
         width: 460px;
         height: 574px;
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     }
 
+    .kitchen-img-item-third
+    {
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    }
+    .kitchen-img-item-four
+    {
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    }
+   
     .about-kitchen-p-third
     {
         width: 312px;
@@ -525,6 +546,7 @@
 
     .kitchen-img-thumb-third
     {
+        
         display: flex;
         justify-content: end;
         gap: 40px;
