@@ -2,7 +2,16 @@
 {
     position: relative;
 }
-
+.background-hotel-details
+{
+    max-width: 100%;
+    height: 620px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin:0 auto;
+}
 /* mobilki pomenshe */
 @media  screen and (max-width:413px) {
     .section-hotel-details
@@ -101,7 +110,7 @@
 
     letter-spacing: 0.02em;
 }
-.hotel-details-button-first:hover, :focus
+.hotel-details-button-first:hover
 {
     background: #FFFFFF;
     border: 2px solid #F3C653;
@@ -126,7 +135,7 @@
 
     letter-spacing: 0.02em;
 }
-.hotel-details-button-second:hover, :focus
+.hotel-details-button-second:hover
 {
 
     background: #FFFFFF;
@@ -136,6 +145,8 @@
 
 .background-hotel-details
 {
+    height: 735px;
+    max-width: 413px;
     background-repeat: no-repeat;
     background: rgba(0, 0, 0, 0.7);
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
@@ -275,7 +286,7 @@
 
         letter-spacing: 0.02em;
     }
-    .hotel-details-button-first:hover, :focus
+    .hotel-details-button-first:hover
     {
         background: #FFFFFF;
         border: 2px solid #F3C653;
@@ -300,7 +311,7 @@
 
         letter-spacing: 0.02em;
     }
-    .hotel-details-button-second:hover, :focus
+    .hotel-details-button-second:hover
     {
 
         background: #FFFFFF;
@@ -310,7 +321,9 @@
 
     .background-hotel-details
     {
-        background-repeat: no-repeat;
+        height: 735px;
+        max-width: 1023px;
+
         background: rgba(0, 0, 0, 0.7);
         background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
         url(../../img/homepage/hotel-details-bg-mob.jpg);
@@ -320,7 +333,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .background-hotel-details{
-        background-repeat: no-repeat;
+       
         background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
         url(../../img/homepage/hotel-details-bg-mob-2x.jpg);
     }
@@ -397,7 +410,6 @@
     {
         display: flex;
         gap: 34px;
-        padding-bottom:96px ;
     }
 
     .hotel-details-btn-box
@@ -430,7 +442,7 @@
 
         letter-spacing: 0.02em;
     }
-    .hotel-details-button-first:hover, :focus
+    .hotel-details-button-first:hover
     {
         background: #FFFFFF;
         border: 2px solid #F3C653;
@@ -455,7 +467,7 @@
 
         letter-spacing: 0.02em;
     }
-    .hotel-details-button-second:hover, :focus
+    .hotel-details-button-second:hover
     {
 
         background: #FFFFFF;
@@ -467,7 +479,7 @@
         fill: #FFFFFF;
         position: absolute;
         left: 60%;
-        top: 90%;
+        top: 101%;
     }
     .details-svg-arrows-first
     {
@@ -475,6 +487,8 @@
     }
     .background-hotel-details
     {
+        height: 620px;
+        max-width: 1280px;
         background-repeat: no-repeat;
         background: rgba(0, 0, 0, 0.7);
         background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
@@ -585,7 +599,7 @@
 
         letter-spacing: 0.02em;
     }
-    .hotel-details-button-first:hover, :focus
+    .hotel-details-button-first:hover
     {
         background: #FFFFFF;
         border: 2px solid #F3C653;
@@ -610,7 +624,7 @@
 
         letter-spacing: 0.02em;
     }
-    .hotel-details-button-second:hover, :focus
+    .hotel-details-button-second:hover
     {
 
         background: #FFFFFF;
@@ -631,7 +645,8 @@
     }
     .background-hotel-details
     {
-        background-repeat: no-repeat;
+        max-width: 1280px;
+        height: 620px;
         background: rgba(0, 0, 0, 0.7);
         background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
         url(../../img/homepage/hotel-details-bg.jpg);
