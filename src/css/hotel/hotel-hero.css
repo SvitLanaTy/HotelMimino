@@ -47,3 +47,76 @@
 
   color: #ffffff;
 }
+
+/* ---------- Mobile - nothing --------------- */
+
+/* ---------- Tablet --------------- */
+@media screen and (min-width: 415px) and (max-width: 1024px) {
+  .hotel-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../../img/hotel/hero-bg-tab.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hotel-hero {
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url(../../img/hotel/hero-bg-tab-2x.jpg);
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hotel-container {
+    max-width: 960px;
+  }
+
+  .hotel-hero {
+    padding-top: 188px;
+    padding-bottom: 15px;
+  }
+
+  .hero-soc-list {
+    gap: 20px;
+    margin-left: 0px;
+  }
+}
+
+/* ---------- Desktop --------------- */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .hotel-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../../img/hotel/hero-bg.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hotel-hero {
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url(../../img/hotel/hero-bg-2x.jpg);
+    }
+  }
+}
+
+@media screen and (min-width: 1280x) {
+  .hotel-container {
+    max-width: 1140px;
+  }
+
+  .hotel-hero {
+    padding-top: 164px;
+    padding-bottom: 65px;
+  }
+
+  .hero-soc-list {
+    display: none;
+  }
+}
