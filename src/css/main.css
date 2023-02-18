@@ -35,6 +35,12 @@
 @import url('./room/room-hero.css');
 @import url('./room/amenities.css');
 
+/* modal */
+
+@import url('./modal/book-a-room.css');
+@import url('./modal/reserve-a-table.css');
+@import url('./modal/room-prices.css');
+
 :root {
   --accent-yellow: #f3c653;
   --brown: #c79002;
@@ -45,6 +51,7 @@
   --color-secondtxt: #b4b4b4;
   --color-title: #000000;
   --color-primtxt: #7a7a7a;
+  --hover-and-clik: #ffffff;
 
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
