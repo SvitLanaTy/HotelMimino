@@ -1,8 +1,9 @@
-.main-hero {
+/* .main-hero {
   position: relative;
-}
+} */
 
 .main-container {
+  position: relative;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -117,7 +118,7 @@
 .hero-location {
   position: absolute;
   display: flex;
-  top: 64px;
+  top: -117px;
   right: 12px;
   width: 210px;
   height: 47px;
@@ -179,7 +180,9 @@
 
 @media screen and (min-width: 1024px) {
   .main-container {
-    max-width: 960px;
+    max-width: 1024px;
+    padding-right: 47px;
+    padding-left: 47px;
   }
 
   .main-hero {
@@ -213,13 +216,14 @@
   .hero-btn-list {
     flex-direction: row;
     gap: 40px;
+    margin-bottom: 27px;
 
     justify-content: flex-end;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
   }
 
   .hero-location {
-    top: 568px;
+    top: 380px;
     right: none;
     left: 47px;
     width: 285px;
@@ -245,7 +249,7 @@
 @media screen and (min-width: 1025px) {
   .main-hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url(../../img/homepage/hero-bg-tab.jpg);
+      url(../../img/homepage/hero-bg.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -256,7 +260,7 @@
           rgba(0, 0, 0, 0.65),
           rgba(0, 0, 0, 0.65)
         ),
-        url(../../img/homepage/hero-bg-tab-2x.jpg);
+        url(../../img/homepage/hero-bg-2x.jpg);
     }
   }
 }
@@ -281,6 +285,10 @@
     margin-bottom: 64px;
   }
 
+  .hero-motto {
+    margin-bottom: 144px;
+  }
+
   .hero-btn-list {
     gap: 60px;
     margin-bottom: 0;
@@ -291,7 +299,7 @@
   }
 
   .hero-location {
-    top: 568px;
+    top: 395px;
     right: none;
     left: 85px;
     height: 56px;

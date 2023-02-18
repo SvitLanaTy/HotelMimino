@@ -1,8 +1,9 @@
-.restaurant-hero {
+/* .restaurant-hero {
   position: relative;
-}
+} */
 
 .restaurant-container {
+  position: relative;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -179,7 +180,9 @@
 
 @media screen and (min-width: 1024px) {
   .restaurant-container {
-    max-width: 960px;
+    max-width: 1024px;
+    padding-left: 47px;
+    padding-right: 47px;
   }
 
   .restaurant-hero {
@@ -205,7 +208,7 @@
 @media screen and (min-width: 1025px) {
   .restaurant-hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url(../../img/restaurant/hero-bg-2x.jpg);
+      url(../../img/restaurant/hero-bg.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -223,7 +226,9 @@
 
 @media screen and (min-width: 1280px) {
   .restaurant-container {
-    max-width: 1140px;
+    max-width: 1280px;
+    padding-left: 85px;
+    padding-right: 85px;
   }
 
   .restaurant-hero {
