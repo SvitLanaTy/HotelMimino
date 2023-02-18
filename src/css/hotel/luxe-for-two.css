@@ -18,7 +18,6 @@
 
 .room-luxe-logo {
   font-family: 'Film P3', sans-serif;
-  display: block;
   margin-bottom: 32px;
   width: 127px;
   font-size: 40px;
@@ -57,6 +56,11 @@
 .room-luxe-photo {
   width: 244px;
   margin-left: auto;
+
+  background-color: #dadada;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  overflow: hidden;
 }
 
 .about-room-luxe {
@@ -105,8 +109,44 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .container-room {
+    position: relative;
+  }
+
+  .room-luxe {
+    padding-bottom: 145px;
+  }
+
+  .room-luxe-secondtxt {
+    padding-top: 62px;
+    margin-bottom: 4px;
+    font-size: 32px;
+  }
+  .room-luxe-logo {
+    width: 202px;
+    font-size: 64px;
+    margin-bottom: 62px;
+  }
+  .room-luxe-title {
+    font-size: 30px;
+    margin-bottom: 16px;
+  }
+
+  .room-luxe-primtxt {
+    font-size: 16px;
+    max-width: 439px;
+  }
   .room-luxe-photo {
+    position: absolute;
+    top: -32px;
+    right: 112px;
     width: 400px;
+  }
+
+  .about-room-luxe {
+    width: 241px;
+    margin-left: auto;
+    margin-top: 209px;
   }
 }
 
