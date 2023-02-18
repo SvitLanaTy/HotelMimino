@@ -100,15 +100,11 @@
   color: #f3c653;
 }
 .amenities-link::after {
-  /* position: absolute; */
   display: inline-block;
   content: '';
-  width: 24px;
-  height: 24px;
-  background-color: #c79002;
+  background-image: url(../../public/return-arrow-right.svg);
+  fill: #c79002;
   margin-left: 16px;
-  /* top: 0;
-  right: -32px; */
 }
 
 /* ========== TABLET ========== */
