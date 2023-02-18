@@ -141,7 +141,38 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .room-three {
+    padding-bottom: 182px;
+  }
+
+  .room-three-secondtxt {
+    padding-top: 72px;
+    margin-right: 57px;
+  }
+
+  .room-three-title {
+    font-size: 36px;
+    margin-bottom: 24px;
+    margin-right: 57px;
+  }
+
+  .room-three-logo {
+    margin-bottom: 72px;
+    margin-right: 57px;
+  }
+
+  .room-three-primtext {
+    max-width: 400px;
+    font-weight: 700;
+    margin-right: 110px;
+  }
+
   .room-three-photo {
     width: 460px;
+    left: 180px;
+  }
+
+  .about-room-three {
+    margin-top: 255px;
   }
 }
