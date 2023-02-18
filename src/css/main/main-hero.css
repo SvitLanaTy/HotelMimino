@@ -242,7 +242,7 @@
 }
 
 /* ---------- Desktop --------------- */
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
+@media screen and (min-width: 1025px) {
   .main-hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url(../../img/homepage/hero-bg-tab.jpg);
@@ -261,9 +261,11 @@
   }
 }
 
-@media screen and (min-width: 1280x) {
+@media screen and (min-width: 1280px) {
   .main-container {
-    max-width: 1140px;
+    max-width: 1280px;
+    padding-left: 85px;
+    padding-right: 85px;
   }
 
   .main-hero {
@@ -281,7 +283,7 @@
 
   .hero-btn-list {
     gap: 60px;
-    margin-bottom: 65px;
+    margin-bottom: 0;
   }
 
   .hero-btn {
