@@ -4,8 +4,8 @@
   right: 16px;
   width: 24px;
   height: 24px;
-  fill: #000000;
   cursor: pointer;
+  stroke: #808080;
 }
 
 .modal-prices {
