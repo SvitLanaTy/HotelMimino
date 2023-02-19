@@ -137,12 +137,46 @@
     font-size: 24px;
   }
 
-  .modal-send-btn {
+  .modal-prices-send-btn {
     font-size: 20px;
     padding: 20px;
-    padding: 20px 20px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .modal-prices {
+    max-width: 712px;
+    min-height: 489px;
+    padding-left: 60px;
+    padding-right: 60px;
+  } 
+
+  .modal-prices-title {
+    font-size: 32px;
+    line-height: calc(37 / 32);
+  }
+
+  .modal-prices-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .prices-input-width, .price-input-summ {
+    width: 288px;
+  }
+
+  .modal-prices-send-btn {
+    font-size: 24px;
+    line-height: calc(29 / 24);
+    padding: 18px;
+  }
+
+  .qty-nights {
+    margin-bottom: 0;
+  }
+}
+
+
 
 /* .modal-prices.active,
 .overlay.active {
