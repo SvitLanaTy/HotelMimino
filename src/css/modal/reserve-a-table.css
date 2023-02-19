@@ -12,6 +12,7 @@
   right: 16px;
   stroke: var(--color-title);
   cursor: pointer;
+  /* transform: translate(-50%, -50%) scaleX(1); */
 }
 
 .table-modal-menu-form {
@@ -136,6 +137,7 @@
     line-height: calc(46 / 40);
   }
   .modal-book-table-reserve {
+    width: 592px;
     font-size: 24px;
     line-height: calc(29 / 24);
   }
