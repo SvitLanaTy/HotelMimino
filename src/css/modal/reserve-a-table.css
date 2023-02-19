@@ -1,15 +1,17 @@
-.modal-menu {
+.mmodal-menu-table {
   width: 100%;
   height: 100%;
   padding: 60px 15px;
   background-color: var(--fon-lemon);
 }
-.modal__cross {
-  width: 18px;
-  height: 18px;
+.modal-table-close {
+  position: absolute;
+  width: 24px;
+  height: 24px;
   top: 16px;
   right: 16px;
   fill: var(--color-title);
+  cursor: pointer;
 }
 
 .modal-menu-form {
@@ -17,7 +19,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.modal-menu-wrap {
+.modal-menu-wraps {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -99,7 +101,7 @@
   color: var(--color-title);
 }
 @media screen and (min-width: 414px) {
-  .modal-menu {
+  .modal-menu-table {
     width: 414px;
   }
   .modal-menu-title {
@@ -112,13 +114,13 @@
   }
 }
 @media screen and (min-width: 1024px) {
-  .modal-menu {
+  .modal-menu-table {
     min-width: 712px;
     height: 522px;
     padding-left: 60px;
     padding-right: 60px;
   }
-  .modal-menu-wrap {
+  .modal-menu-wraps {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
