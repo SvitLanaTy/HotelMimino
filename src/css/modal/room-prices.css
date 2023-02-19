@@ -1,4 +1,4 @@
-.modal-cross {
+.modal-prices-cross {
   position: absolute;
   top: 16px;
   right: 16px;
@@ -8,23 +8,22 @@
   cursor: pointer;
 }
 
-.modal {
+.modal-prices {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) scale(1);
 
   width: 100%;
+  max-width: 414px;
   min-height: 572px;
-  padding: 60px;
+  padding: 60px 15px;
   text-align: left;
 
   border: 1px solid #f3c653;
   border-radius: 2px;
 
   background-color: #fffdee;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
     opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -68,7 +67,7 @@
   background-color: transparent;
 }
 
-.select-input-wrap {
+.prices-select-input-wrap {
   position: relative;
   display: flex;
   align-items: center;
@@ -93,7 +92,7 @@
   margin-bottom: 8px;
 }
 
-.label-text {
+.modal-prices-label {
   display: inline-block;
   font-weight: 500;
   font-size: 16px;
@@ -117,7 +116,7 @@
   transform: translateX(15px);
 }
 
-.modal-send-btn {
+.modal-prices-send-btn {
   display: block;
   margin-top: 40px;
   width: 100%;
@@ -144,6 +143,12 @@
     padding: 20px 20px;
   }
 }
+
+/* .modal-prices.active,
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
+} */
 
 /* .backdrop {
   position: fixed;

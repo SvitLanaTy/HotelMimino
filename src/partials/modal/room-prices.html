@@ -1,12 +1,12 @@
-<div class="modal" data-modal="3">
-    <svg class="modal-cross js-modal-close" width="24" height="24">
+<div class="modal modal-prices" data-modal="3">
+    <svg class="modal-prices-cross js-modal-close" width="24" height="24">
       <use href="./public/favicon.svg#icon-x"></use>
     </svg>
   <h2 class="modal-prices-title">ЦІНИ НА НОМЕР</h2>
-  <form class="modal-form">
+  <form class="modal-prices-form">
     <p class="modal-prices-text">Двомісний люкс</p>
-    <p class="label-text">Категорія номеру</p>
-    <div class="select-input-wrap">
+    <p class="modal-prices-label">Категорія номеру</p>
+    <div class="prices-select-input-wrap">
       <select
         id="modal-prices-room-type"
         name="modal-prices-room-type"
@@ -24,7 +24,7 @@
         <use href="./public/favicon.svg#icon-arrow-down"></use>
       </svg>
     </div>
-    <label for="modal-prices-room-type" class="label-text qty-nights"
+    <label for="modal-prices-room-type" class="modal-prices-label qty-nights"
       >Кількість ночей</label
     >
 
@@ -35,9 +35,9 @@
       class="price-input-summ"
       placeholder="1000"
     />
-    <label for="price-input-summ" class="label-text price-grn">грн</label>
+    <label for="price-input-summ" class="modal-prices-label price-grn">грн</label>
 
-    <button type="submit" class="modal-send-btn">Забронювати номер</button>
+    <button type="submit" class="modal-prices-send-btn">Забронювати номер</button>
   </form>
 </div>
   <!--   Svg иконка для закрытия окна  -->
@@ -51,4 +51,3 @@
     />
   </svg> -->
   <!-- <p class="modal__title">room-prices</p> -->
-</div>
