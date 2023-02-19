@@ -130,6 +130,17 @@
   line-height: calc(24 / 20);
   color: #ffffff;
   text-align: center;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-prices-send-btn:hover,
+.modal-prices-send-btn:focus {
+  color: #000000;
+  background-color: var(--accent-yellow);
+  border-color: var(--accent-yellow);
 }
 
 @media screen and (min-width: 414px) {
@@ -149,7 +160,7 @@
     min-height: 489px;
     padding-left: 60px;
     padding-right: 60px;
-  } 
+  }
 
   .modal-prices-title {
     font-size: 32px;
@@ -161,7 +172,8 @@
     justify-content: space-between;
   }
 
-  .prices-input-width, .price-input-summ {
+  .prices-input-width,
+  .price-input-summ {
     width: 288px;
   }
 
@@ -175,8 +187,6 @@
     margin-bottom: 0;
   }
 }
-
-
 
 /* .modal-prices.active,
 .overlay.active {
