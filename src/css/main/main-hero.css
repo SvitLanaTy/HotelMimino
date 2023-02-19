@@ -36,10 +36,11 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 24px;
+  max-width: 81%;
 
   font-family: 'Film P3', sans-serif;
   font-weight: 700;
-  font-size: 27vw;
+  font-size: 23vw;
   line-height: 1.07;
   letter-spacing: 0.3em;
   text-align: center;
@@ -158,6 +159,7 @@
 /* ---------- Mobile - nothing --------------- */
 @media screen and (min-width: 414px) {
   .main-hero-title {
+    width: 303px;
     font-size: 96px;
   }
 
@@ -206,6 +208,7 @@
   }
 
   .main-hero-title {
+    width: 404px;
     margin-bottom: 16px;
 
     font-size: 128px;
