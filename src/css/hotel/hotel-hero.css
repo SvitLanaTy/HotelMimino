@@ -1,8 +1,5 @@
-.hotel-hero {
-  position: relative;
-}
-
 .hotel-container {
+  position: relative;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -51,7 +48,7 @@
 /* ---------- Mobile - nothing --------------- */
 
 /* ---------- Tablet --------------- */
-@media screen and (min-width: 415px) and (max-width: 1024px) {
+@media screen and (min-width: 415px) {
   .hotel-hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url(../../img/hotel/hero-bg-tab.jpg);
@@ -72,7 +69,9 @@
 
 @media screen and (min-width: 1024px) {
   .hotel-container {
-    max-width: 960px;
+    max-width: 1024px;
+    padding-left: 47px;
+    padding-right: 47px;
   }
 
   .hotel-hero {
@@ -82,6 +81,15 @@
 
   .hotel-hero-subheading {
     margin-bottom: 226px;
+
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+
+  .hotel-container > .hero-location {
+    top: 395px;
+    right: none;
   }
 
   .hero-soc-list {
@@ -91,7 +99,7 @@
 }
 
 /* ---------- Desktop --------------- */
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
+@media screen and (min-width: 1025px) {
   .hotel-hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url(../../img/hotel/hero-bg.jpg);
@@ -110,9 +118,11 @@
   }
 }
 
-@media screen and (min-width: 1280x) {
+@media screen and (min-width: 1280px) {
   .hotel-container {
-    max-width: 1140px;
+    max-width: 1280px;
+    padding-left: 47px;
+    padding-right: 47px;
   }
 
   .hotel-hero {
@@ -124,7 +134,8 @@
     margin-bottom: 249px;
   }
 
-  .hero-soc-list {
-    display: none;
+  .hotel-container > .hero-location {
+    top: 425px;
   }
+
 }

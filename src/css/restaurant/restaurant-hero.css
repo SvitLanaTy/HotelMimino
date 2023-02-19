@@ -1,8 +1,5 @@
-.restaurant-hero {
-  position: relative;
-}
-
 .restaurant-container {
+  position: relative;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -158,7 +155,7 @@
 /* ---------- Mobile - nothing --------------- */
 
 /* ---------- Tablet --------------- */
-@media screen and (min-width: 415px) and (max-width: 1024px) {
+@media screen and (min-width: 415px) {
   .restaurant-hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url(../../img/restaurant/hero-bg-tab.jpg);
@@ -179,12 +176,21 @@
 
 @media screen and (min-width: 1024px) {
   .restaurant-container {
-    max-width: 960px;
+    max-width: 1024px;
+    padding-left: 47px;
+    padding-right: 47px;
   }
 
   .restaurant-hero {
     padding-top: 188px;
     padding-bottom: 15px;
+  }
+
+  .hero-title {
+    margin-bottom: 16px;
+
+    font-size: 128px;
+    line-height: 1.08;
   }
 
   .restaurant-hero-subheading {
@@ -195,6 +201,18 @@
     letter-spacing: 0.02em;
   }
 
+  .hero-motto {
+    margin-bottom: 145px;
+
+    font-size: 36px;
+    line-height: 1.14;
+    letter-spacing: 0.05em;
+  }
+
+  .restaurant-container > .hero-location {
+    top: 385px;
+  }
+
   .hero-soc-list {
     gap: 20px;
     margin-left: 0px;
@@ -202,10 +220,10 @@
 }
 
 /* ---------- Desktop --------------- */
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
+@media screen and (min-width: 1025px) {
   .restaurant-hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url(../../img/restaurant/hero-bg-2x.jpg);
+      url(../../img/restaurant/hero-bg.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -221,9 +239,11 @@
   }
 }
 
-@media screen and (min-width: 1280x) {
+@media screen and (min-width: 1280px) {
   .restaurant-container {
-    max-width: 1140px;
+    max-width: 1280px;
+    padding-left: 85px;
+    padding-right: 85px;
   }
 
   .restaurant-hero {
@@ -235,7 +255,8 @@
     margin-bottom: 64px;
   }
 
-  .hero-soc-list {
-    display: none;
+  .restaurant-container > .hero-location {
+    top: 395px;
   }
+
 }
