@@ -1,11 +1,12 @@
 /*  ---  SECTIONS MAIN STYLES --- */
 
 .rd-container {
-  margin-right: auto;
-  margin-left: auto;
-  width: auto;
+  position: relative;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
+  max-width: 414px;
+  height: 735px;
   overflow: hidden;
 }
 
@@ -13,8 +14,6 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
     url('../../img/homepage/rest-details-bg-mob.jpg');
   max-width: 100%;
-  height: 735px;
-  margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -169,31 +168,19 @@
 /* ---- MEDIA --- */
 
 /* ---mobile--- */
-@media screen and (min-width: 200px) and (max-width: 1023px) {
-  .rd-slider {
-    margin-left: 25px;
-    margin-bottom: 32px;
-  }
-}
-@media screen and (min-width: 414px) and (max-width: 1023px) {
+@media screen and (min-width: 415px) {
   .rd-container {
     max-width: 414px;
-  }
-}
-
-/* ---tablet--- */
-
-@media screen and (min-width: 1024px) {
-  .rd-container {
-    max-width: 1024px;
-    padding-left: 47px;
-    padding-right: 47px;
   }
   .rd-background {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url('../../img/homepage/rest-details-bg-tab.jpg');
-    max-width: 1024px;
     height: 620px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -206,6 +193,49 @@
         url('../../img/homepage/rest-details-bg-tab-2x.jpg');
     }
   }
+}
+
+@media screen and (max-width: 1024px) {
+  .rd-slider {
+    margin-left: 25px;
+    margin-bottom: 32px;
+  }
+  .rd-background {
+    height: 735px;
+  }
+}
+
+/* ---tablet--- */
+
+@media screen and (min-width: 1025px) {
+  .rd-container {
+    /* max-width: 1024px; */
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+  .rd-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url('../../img/homepage/rest-details-bg.jpg');
+    height: 620px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .rd-background {
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url('../../img/homepage/rest-details-bg-2x.jpg');
+    }
+  }
+  
   .rd-text-wrapper {
     padding-top: 48px;
     padding-left: 231px;
@@ -250,27 +280,10 @@
 
 @media screen and (min-width: 1280px) {
   .rd-container {
-    max-width: 1280px;
     padding-left: 52px;
     padding-right: 52px;
   }
-  .rd-background {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url('../../img/homepage/rest-details-bg.jpg');
-    max-width: 1280px;
-    height: 620px;
-  }
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .rd-background {
-      background-image: linear-gradient(
-          rgba(0, 0, 0, 0.65),
-          rgba(0, 0, 0, 0.65)
-        ),
-        url('../../img/homepage/rest-details-bg-2x.jpg');
-    }
-  }
+  
   .rd-text-wrapper {
     padding-left: 286px;
   }
