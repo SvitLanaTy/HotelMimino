@@ -1,47 +1,47 @@
-<div class="modal modal-menu-table" data-modal="1">
+<div class="modal table-modal-menu" data-modal="1">
   <!--   Svg иконка для закрытия окна  -->
   </svg>
-  <svg class="modal-table-close js-modal-close" width="24" height="24">
+  <svg class="table-modal-close js-modal-close" width="24" height="24">
     
     <use href="./public/favicon.svg#icon-x"></use>
   </svg>
   
-  <h2 class="modal-menu-title">ЗАБРОНЮВАТИ СТОЛИК</h2>
-  <form class="modal-menu-form">
-    <div class="modal-menu-wraps">
-      <label class="modal-menu-form-fild">
+  <h2 class="table-modal-menu-title">ЗАБРОНЮВАТИ СТОЛИК</h2>
+  <form class="table-modal-menu-form">
+    <div class="table-modal-menu-wraps">
+      <label class="table-modal-menu-form-fild">
         <input
           type="text"
           name="client-name"
-          class="modal-menu-form-input"
+          class="table-modal-menu-form-input"
           required
           pattern="[a-zA-Z]+"
           minlength="3"
           placeholder="Ваше ім’я"
         />
-        <span class="modal-menu-form-input-desc"
+        <span class="table-modal-menu-form-input-desc"
           >На кого забронювати столик?</span
         >
       </label>
-      <label class="modal-menu-form-fild">
+      <label class="table-modal-menu-form-fild">
         <input
           type="tel"
           name="client-phone"
-          class="modal-menu-form-input"
+          class="table-modal-menu-form-input"
           required
           pattern="^\+\d{2} \(\d{3}\) \d{3}-\d{2}-\d{2}$"
           minlength="19"
           placeholder="+38 (___) ___-__-__"
         />
-        <span class="modal-menu-form-input-desc">Номер телефону</span>
+        <span class="table-modal-menu-form-input-desc">Номер телефону</span>
       </label>
 
-      <label class="modal-menu-form-fild">
-        <span class="modal-input-wrap">
-          <svg class="modal-menu-select-icon" width="24" height="24">
+      <label class="table-modal-menu-form-fild">
+        <span class="table-modal-input-wrap">
+          <svg class="table-modal-menu-select-icon" width="24" height="24">
             <use href="../../public/favicon.svg#icon-arrow-down"></use>
           </svg>
-          <select class="modal-menu-form-input" name="amount">
+          <select class="table-modal-menu-form-input" name="amount">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -51,22 +51,22 @@
           </select>
         </span>
 
-        <span class="modal-menu-form-input-desc"
+        <span class="table-modal-menu-form-input-desc"
           >Столик на яку кількість осіб?</span
         >
       </label>
-      <label class="modal-menu-form-fild">
-        <span class="modal-input-wrap">
-          <svg class="modal-menu-select-icon" width="24" height="24">
-            <use href="./public/favicon.svg#icon-arrow-down"></use>
+      <label class="table-modal-menu-form-fild">
+        <span class="table-modal-input-wrap">
+          <svg class="table-modal-menu-select-icon" width="24" height="24">
+            <use href="./public/favicon.svg#icon-modal-close-btn"></use>
           </svg>
-          <select class="modal-menu-form-input" name="day">
+          <select class="table-modal-menu-form-input" name="day">
             <option value="today">Сьогодні</option>
             <option value="tomorrow">Завтра</option>
           </select>
         </span>
 
-        <span class="modal-menu-form-input-desc">На яку дату бронювати</span>
+        <span class="table-modal-menu-form-input-desc">На яку дату бронювати</span>
       </label>
     </div>
     <button type="submit" class="modal-book-table-reserve js-modal-close">
