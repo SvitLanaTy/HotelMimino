@@ -45,12 +45,17 @@
   color: #808080;
   padding-left: 17px;
 }
+.amenities-input:hover,
+.amenities-input:focus {
+  border-color: #f3c653;
+}
 .amenities-input-select {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
   margin-bottom: 0;
 }
+
 .amenities-input-select::-ms-expand {
   display: none;
 }
@@ -95,6 +100,14 @@
   line-height: 1.2em;
   color: #ffffff;
   padding: 20px;
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
+}
+.amenities-modal-btn:hover,
+.amenities-modal-btn:focus {
+  background: #f3c653;
+  color: #000000;
 }
 @media screen and (min-width: 1024px) {
   .amenities-select {
