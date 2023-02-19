@@ -13,7 +13,7 @@
 .main-hero {
   margin: 0 auto;
   padding-top: 181px;
-  padding-bottom: 22px;
+  padding-bottom: 20px;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
     url(../../img/homepage/hero-bg-mob.jpg);
@@ -32,14 +32,14 @@
   }
 }
 
-.hero-title {
+.main-hero-title {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 24px;
 
   font-family: 'Film P3', sans-serif;
   font-weight: 700;
-  font-size: 96px;
+  font-size: 27vw;
   line-height: 1.07;
   letter-spacing: 0.3em;
   text-align: center;
@@ -55,7 +55,7 @@
 
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 4vw;
   line-height: 1.25;
   letter-spacing: 0.02em;
   text-align: center;
@@ -64,14 +64,14 @@
   color: #ffffff;
 }
 
-.hero-motto {
+.main-hero-motto {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 120px;
+  margin-bottom: 113px;
 
   font-family: 'Times New Roman', serif;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 8vw;
   line-height: 1.23;
   letter-spacing: 0.05em;
   text-align: center;
@@ -87,7 +87,7 @@
 
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 60px;
+  margin-bottom: 58px;
 }
 
 .hero-btn {
@@ -156,6 +156,22 @@
 }
 
 /* ---------- Mobile - nothing --------------- */
+@media screen and (min-width: 414px) {
+  .main-hero-title {
+    font-size: 96px;
+  }
+
+  .main-hero-subheading{
+    font-size: 16px;
+  }
+
+  .main-hero-motto{
+    font-size: 32px;
+  }
+
+}
+
+
 
 /* ---------- Tablet --------------- */
 @media screen and (min-width: 415px) {
@@ -189,7 +205,7 @@
     padding-bottom: 15px;
   }
 
-  .hero-title {
+  .main-hero-title {
     margin-bottom: 16px;
 
     font-size: 128px;
@@ -204,7 +220,7 @@
     letter-spacing: 0.02em;
   }
 
-  .hero-motto {
+  .main-hero-motto {
     margin-bottom: 145px;
 
     font-size: 36px;
@@ -278,7 +294,7 @@
     padding-bottom: 65px;
   }
 
-  .hero-title {
+  .main-hero-title {
     margin-bottom: 32px;
   }
 
@@ -286,7 +302,7 @@
     margin-bottom: 64px;
   }
 
-  .hero-motto {
+  .main-hero-motto {
     margin-bottom: 144px;
   }
 
@@ -300,7 +316,7 @@
   }
 
   .hero-location {
-    top: 425px;
+    top: 440px;
     right: none;
     left: 85px;
     height: 56px;
