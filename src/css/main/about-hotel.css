@@ -9,6 +9,25 @@
 .about-hotel-title-wrap{
    text-align: right; 
    margin-bottom: 16px;
+
+   animation:2.5s anim-about-hotel-title-wrap ease-out ;
+}
+@keyframes anim-about-hotel-title-wrap {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }
 
 
@@ -210,6 +229,14 @@ margin-bottom: 0;
 
 }
 
+.about-hotel-slider {
+  position: relative;
+  z-index: 1;
+  box-sizing: content-box;
+  top:-104px;
+  right: 102px;
+}
+
 .about-hotel-slider-photo {
   max-width: 194px;
   height: 194px; 
@@ -231,7 +258,7 @@ margin-bottom: 0;
  min-width: 1140px;
  padding-right:85px; 
  padding-left: 85px ;
- padding-bottom: 50px;
+ padding-bottom: 0;
  margin: 0 auto; 
   overflow: visible; 
 }
@@ -250,7 +277,7 @@ margin-bottom: 162px;
 
 .about-hotel-top-photo {
 max-width: 100%;
-    
+ left:50px;   
 }   
 
 
