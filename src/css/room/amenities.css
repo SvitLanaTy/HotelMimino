@@ -78,6 +78,10 @@
   font-size: 20px;
   line-height: 1.2em;
   color: #ffffff;
+
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 .amenities-btn:hover,
 .amenities-btn:focus {
@@ -94,22 +98,36 @@
   line-height: 1.25em;
   letter-spacing: 0.02em;
   color: #c79002;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 .amenities-link:hover,
 .amenities-link:focus {
   color: #f3c653;
 }
-.amenities-link::after {
-  /* position: absolute; */
+.amenities-arrow-icon {
+  margin-left: 16px;
+  fill: currentColor;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
+}
+.amenities-link:hover .amenities-arrow-icon,
+.amenities-link:focus .amenities-arrow-icon {
+  fill: #f3c653;
+}
+
+/* .amenities-link::after {
   display: inline-block;
   content: '';
   width: 24px;
   height: 24px;
-  background-color: #c79002;
+  background-image: url(../../public/return-arrow-right.svg);
+  background-repeat: no-repeat;
+  background-position: center;
   margin-left: 16px;
-  /* top: 0;
-  right: -32px; */
-}
+} */
 
 /* ========== TABLET ========== */
 
