@@ -62,6 +62,8 @@
   display: block;
   width: 100%;
   border: 1px solid #c79002;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
   background-color: transparent;
 }
