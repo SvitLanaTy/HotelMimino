@@ -1,4 +1,5 @@
 .room-three {
+  max-width: 1280px;
   margin: 0 auto;
   padding-bottom: 32px;
   background-color: var(--fon-dark-lemon);
