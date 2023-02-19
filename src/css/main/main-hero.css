@@ -159,7 +159,7 @@
 /* ---------- Mobile - nothing --------------- */
 
 /* ---------- Tablet --------------- */
-@media screen and (min-width: 415px) and (max-width: 1024px) {
+@media screen and (min-width: 415px) {
   .main-hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url(../../img/homepage/hero-bg-tab.jpg);
@@ -223,7 +223,7 @@
   }
 
   .hero-location {
-    top: 380px;
+    top: 415px;
     right: none;
     left: 47px;
     width: 285px;
@@ -299,7 +299,7 @@
   }
 
   .hero-location {
-    top: 395px;
+    top: 425px;
     right: none;
     left: 85px;
     height: 56px;
