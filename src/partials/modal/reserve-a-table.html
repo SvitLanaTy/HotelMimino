@@ -8,7 +8,9 @@
     <path
       d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
     />
+    <!-- <use href="../../public/favicon.svg#icon-x"></use> -->
   </svg>
+
   <h2 class="modal-menu-title">ЗАБРОНЮВАТИ СТОЛИК</h2>
   <form class="modal-menu-form">
     <div class="modal-menu-wrap">
@@ -40,11 +42,11 @@
       </label>
 
       <label class="modal-menu-form-fild">
-        <div class="modal-input-wrap">
+        <span class="modal-input-wrap">
           <svg class="modal-menu-select-icon" width="24" height="24">
             <use href="../../public/favicon.svg#icon-arrow-down"></use>
           </svg>
-          <select class="modal-menu-form-input" name="amount" required>
+          <select class="modal-menu-form-input" name="amount">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -52,27 +54,26 @@
             <option value="5">5</option>
             <option value="6">6</option>
           </select>
-        </div>
+        </span>
 
         <span class="modal-menu-form-input-desc"
           >Столик на яку кількість осіб?</span
         >
       </label>
       <label class="modal-menu-form-fild">
-        <div class="modal-input-wrap">
+        <span class="modal-input-wrap">
           <svg class="modal-menu-select-icon" width="24" height="24">
-            <use href="../../public/favicon.svg#icon-arrow-down"></use>
+            <use href="./public/favicon.svg#icon-arrow-down"></use>
           </svg>
-          <select class="modal-menu-form-input" name="day" required>
+          <select class="modal-menu-form-input" name="day">
             <option value="today">Сьогодні</option>
             <option value="tomorrow">Завтра</option>
           </select>
-        </div>
+        </span>
 
         <span class="modal-menu-form-input-desc">На яку дату бронювати</span>
       </label>
     </div>
-
     <button type="submit" class="modal-book-table-reserve js-modal-close">
       ОФОРМИТИ БРОНЮВАННЯ
     </button>
