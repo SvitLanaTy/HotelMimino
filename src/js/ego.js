@@ -1,4 +1,4 @@
-var swiper = new Swiper('.about-right', {
+var swiper = new Swiper('.swiper-about-right', {
   slidesPerView: 'auto',
   spaceBetween: 24,
   centeredSlides: true,
