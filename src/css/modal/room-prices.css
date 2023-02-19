@@ -132,6 +132,14 @@
   text-align: center;
 }
 
+.modal-prices-send-btn:hover,
+.modal-prices-send-btn:focus {
+  color: #000000;
+  background-color: var(--accent-yellow);
+  border-color: var(--accent-yellow);
+}
+
+
 @media screen and (min-width: 414px) {
   .modal-prices-title {
     font-size: 24px;
