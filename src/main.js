@@ -1,3 +1,3 @@
 import './js/modal';
-// import './js/wow';
-// import './js/vik';
+import './js/vik';
+import './js/wow';
