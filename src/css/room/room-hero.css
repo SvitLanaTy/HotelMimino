@@ -50,12 +50,12 @@
   border-color: none;
   padding: 0;
 }
-.hero-btn-room:hover {
+
+/* .hero-btn-room:focus {
   background: #ffffff;
-}
-.hero-btn-room:focus {
-  background: #ffffff;
-}
+  border: 2px solid var(--accent-yellow);
+} */
+  
 .hero-btn-room {
   position: relative;
   top: 470px;
@@ -78,9 +78,16 @@
   transition: background-color 250ms var(--timing-function);
 }
 
+.hero-btn-room:hover,
+.hero-btn-room:focus {
+  background: #ffffff;
+  border: 2px solid var(--accent-yellow);
+  
+}
 .hero-btn:hover,
 .hero-btn:active {
   background-color: #ffffff;
+  
 }
 
 .room-svg-button {
