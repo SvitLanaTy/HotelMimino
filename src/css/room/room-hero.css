@@ -159,6 +159,7 @@ top: 470px;
 .hero-soc-icons-room {
   fill: var(--accent-yellow);
 }
+
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
@@ -420,3 +421,21 @@ font-size: 16px;
     }
 
 }}
+@media screen and (min-width: 320px) {
+    .room-hero {
+        background-image: linear-gradient(
+      180deg,
+      #000000 0%,
+      rgba(0, 0, 0, 0.55) 78px,
+      rgba(0, 0, 0, 0) 143px
+    ), 
+            
+             url(../img/room/hero-bg-mob-2x.jpg);
+    }
+    .hero-soc-list-room{
+        position: absolute;
+            display: table-caption;
+            left: 0px;
+            top:460px;
+    }
+}
