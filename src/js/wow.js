@@ -471,4 +471,3 @@
     })();
   (b['default'] = r), (a.exports = b['default']);
 });
-new WOW().init();
