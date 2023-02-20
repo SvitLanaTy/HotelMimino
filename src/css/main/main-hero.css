@@ -113,6 +113,7 @@
 .hero-btn:hover,
 .hero-btn:active {
   background: #ffffff;
+  border: 2px solid #F3C653;
 }
 
 .hero-location {
@@ -124,18 +125,6 @@
   height: 47px;
   align-items: center;
 
-  border: 1px solid rgba(243, 198, 83, 0.7);
-  border-radius: 2px;
-}
-
-.hero-loc-icon {
-  fill: var(--accent-yellow);
-  margin-right: 8px;
-  margin-left: 8px;
-}
-
-.hero-address {
-  display: inline-block;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 12px;
@@ -144,6 +133,15 @@
   text-align: left;
 
   color: #e5e5e5;
+
+  border: 1px solid rgba(243, 198, 83, 0.7);
+  border-radius: 2px;
+}
+
+.hero-loc-icon {
+  fill: var(--accent-yellow);
+  margin-right: 8px;
+  margin-left: 8px;
 }
 
 .hero-soc-list {
@@ -255,7 +253,7 @@
     margin-left: 10px;
   }
 
-  .hero-address {
+  .hero-location {
     font-size: 16px;
   }
 
