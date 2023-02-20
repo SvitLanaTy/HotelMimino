@@ -14,6 +14,11 @@
 .header-phone-nam {
   display: none;
 }
+
+.header-svg{
+  opacity: 0.7;
+}
+
 .header-svg-nam {
   display: flex;
   align-items: center;
@@ -95,7 +100,7 @@
   }
 
   .header-wrap {
-    column-gap: 194px;
+    column-gap: 206px;
   }
 
   .header-logo {
@@ -110,6 +115,7 @@
     margin-left: 4px;
     font-size: 14px;
     color: #ffffff;
+    font-weight: 400;
   }
 
   .header-nav-link {
@@ -173,5 +179,4 @@
   .header-list {
     margin-left: 129px;
   }
-
 }
