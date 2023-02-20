@@ -158,3 +158,98 @@ body {
   fill: #444;
   cursor: pointer;
 }
+
+/*  */
+
+.swiper-about-right,
+.swiper-about-left {
+  width: 85%;
+  padding-bottom: 52px;
+}
+.swiper-about-right {
+  margin-right: -15px;
+}
+.swiper-about-left {
+  margin-left: -15px;
+}
+
+@media screen and (min-width: 414px) {
+  .swiper-about-right,
+  .swiper-about-left {
+    width: 330px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .swiper-about-right,
+  .swiper-about-left {
+    width: 428px;
+    margin-top: -28px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .swiper-about-right,
+  .swiper-about-left {
+    width: 548px;
+    margin-top: -147px;
+  }
+}
+.swiper-about-right-button-wrrap,
+.swiper-about-left-button-wrrap {
+  position: absolute;
+}
+
+.swiper-about-right-button-wrrap,
+.swiper-about-left-button-wrrap {
+  bottom: 32px;
+}
+.swiper-about-right-button-wrrap {
+  right: 47px;
+}
+.swiper-about-left-button-wrrap {
+  left: 64px;
+}
+
+.swiper-slide {
+  width: 245px;
+}
+
+@media screen and (min-width: 1024px) {
+  .swiper-slide {
+    width: 194px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .swiper-slide {
+    width: 254px;
+  }
+}
+
+.swiper-about-right-button-next::after,
+.swiper-about-right-button-prev::after,
+.swiper-about-left-button-next::after,
+.swiper-about-left-button-prev::after {
+  display: none;
+}
+.swiper-about-right-button-next {
+  left: 0;
+  right: -48px;
+}
+.swiper-button-prev.swiper-about-left-button-prev {
+  right: -48px;
+}
+.swiper-about-right-button-prev {
+  left: -47px;
+}
+.swiper-button-next.swiper-about-left-button-next {
+  left: -32px;
+}
+
+.swiper-about-right-button-next-icon,
+.swiper-about-right-button-prev-icon,
+.swiper-about-left-button-next-icon,
+.swiper-about-left-button-prev-icon {
+  width: 32px;
+  height: 32px;
+}
