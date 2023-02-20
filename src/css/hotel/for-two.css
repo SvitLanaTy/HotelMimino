@@ -92,10 +92,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .container-room {
-    position: relative;
-  }
-
   .room-two {
     position: relative;
     padding-bottom: 145px;
