@@ -47,7 +47,7 @@
 }
 .amenities-input:hover,
 .amenities-input:focus {
-  border-color: #f3c653;
+  border-color: #000000;
 }
 .amenities-input-select {
   -moz-appearance: none;
