@@ -46,17 +46,18 @@
 }
 
 .hotel-hero-subheading {
-  margin-left: auto;
-  margin-right: auto;
+  display: inline-block;
+  /* margin-left: auto;
+  margin-right: auto; */
   margin-bottom: 178px;
-
+  min-width: 71px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 4vw;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
-  align-content: center;
+  /* text-align: center;
+  align-content: center; */
 
   color: #ffffff;
 }
@@ -69,10 +70,9 @@
     font-size: 96px;
   }
 
-  .hotel-hero-subheading{
+  .hotel-hero-subheading {
     font-size: 16px;
   }
-
 }
 
 /* ---------- Tablet --------------- */
@@ -107,13 +107,13 @@
     padding-bottom: 15px;
   }
 
-.hotel-hero-title {
-  font-size: 128px;
-  line-height: 1.08;
+  .hotel-hero-title {
+    font-size: 128px;
+    line-height: 1.08;
 
-  width: 404px;
-  margin-bottom: 32px;
-}
+    width: 404px;
+    margin-bottom: 32px;
+  }
 
   .hotel-hero-subheading {
     margin-bottom: 226px;
@@ -178,5 +178,4 @@
   .hotel-container > .hero-location {
     top: 440px;
   }
-
 }
