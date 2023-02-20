@@ -127,7 +127,7 @@
   }
   .room-three-photo {
     position: absolute;
-    top: -32px;
+    top: -102px;
     left: 112px;
     width: 400px;
   }
@@ -168,6 +168,7 @@
 
   .room-three-photo {
     width: 460px;
+    top: -104px;
     left: 180px;
   }
 

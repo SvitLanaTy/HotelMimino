@@ -1,12 +1,12 @@
 .room-two {
   margin: 0 auto;
+  padding-top: 32px;
   padding-bottom: 32px;
   background-color: #fffdee;
 }
 
 .room-two-secondtext {
   font-family: 'Times New Roman', serif;
-  padding-top: 32px;
   margin-bottom: 8px;
   font-size: 20px;
   line-height: 1.15;
@@ -46,8 +46,7 @@
 
 .room-two-photo {
   width: 244px;
-  margin-left: auto;
-
+  margin-bottom: 32px;
   background-color: #dadada;
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
@@ -94,11 +93,11 @@
 @media screen and (min-width: 1024px) {
   .room-two {
     position: relative;
+    padding-top: 70px;
     padding-bottom: 145px;
   }
 
   .room-two-secondtext {
-    padding-top: 62px;
     margin-bottom: 4px;
     font-size: 32px;
   }
@@ -118,7 +117,7 @@
   }
   .room-two-photo {
     position: absolute;
-    top: -32px;
+    top: -102px;
     right: 112px;
     width: 400px;
   }
@@ -133,10 +132,6 @@
 @media screen and (min-width: 1280px) {
   .room-two {
     padding-bottom: 182px;
-  }
-
-  .room-two-secondtext {
-    padding-top: 72px;
   }
 
   .room-two-title {
@@ -155,6 +150,7 @@
 
   .room-two-photo {
     width: 460px;
+    top: -104px;
     right: 180px;
   }
 
