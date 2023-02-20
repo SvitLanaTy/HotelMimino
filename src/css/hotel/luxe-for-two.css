@@ -140,6 +140,7 @@
     top: -102px;
     right: 112px;
     width: 400px;
+    margin-bottom: 0;
   }
 
   .about-room-luxe {
@@ -180,6 +181,7 @@
   }
 
   .about-room-luxe {
-    margin-top: 255px;
+    right: 85px;
+    bottom: 142px;
   }
 }
