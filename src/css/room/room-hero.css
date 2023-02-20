@@ -18,7 +18,7 @@
       rgba(0, 0, 0, 0.55) 80px,
       rgba(0, 0, 0, 0) 147px
     ),
-       url(../img/room/hero-bg-mob.jpg);
+       url(../../img/room/hero-bg-mob.jpg);
 
     background-repeat: no-repeat;
     background-position: center;
@@ -165,7 +165,7 @@ top: 470px;
     .room-hero {
         background-image: 
             
-             url(../img/room/hero-bg-tab.jpg);
+             url(../../img/room/hero-bg-tab.jpg);
     }
 }
 @media screen and (min-width: 415px) {
@@ -177,7 +177,7 @@ top: 470px;
       rgba(0, 0, 0, 0) 143px
     ), 
             
-             url(../img/room/hero-bg-mob-2x.jpg);
+             url(../../img/room/hero-bg-mob-2x.jpg);
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -191,7 +191,7 @@ top: 470px;
       rgba(0, 0, 0, 0.55) 78px,
       rgba(0, 0, 0, 0) 143px
     ), 
-                url(../img/room/hero-bg-tab-2x.jpg);
+                url(../../img/room/hero-bg-tab-2x.jpg);
         }
         .hero-soc-list-room{
             position: absolute;
@@ -300,7 +300,7 @@ top: 445px;
       rgba(0, 0, 0, 0.55) 80px,
       rgba(0, 0, 0, 0) 147px
     ), 
-      url(../img/room/hero-bg.jpg);
+      url(../../img/room/hero-bg.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -314,7 +314,7 @@ top: 445px;
       rgba(0, 0, 0, 0.55) 80px,
       rgba(0, 0, 0, 0) 147px
     ), 
-        url(../img/room/hero-bg-2x.jpg);
+        url(../../img/room/hero-bg-2x.jpg);
     }
   }
 }
@@ -342,7 +342,7 @@ top: 445px;
       rgba(0, 0, 0, 0.55) 80px,
       rgba(0, 0, 0, 0) 147px
     ), 
-            url(../img/room/hero-bg.jpg);
+            url(../../img/room/hero-bg.jpg);
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -357,7 +357,7 @@ top: 445px;
       rgba(0, 0, 0, 0) 147px
     ),
                   
-                url(../img/room/hero-bg-2x.jpg);
+                url(../../img/room/hero-bg-2x.jpg);
         }
     }
 }
