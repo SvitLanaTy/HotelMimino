@@ -184,6 +184,7 @@ body {
   .swiper-about-left {
     width: 428px;
     margin-top: -28px;
+    padding-bottom: 64px;
   }
 }
 
@@ -192,6 +193,7 @@ body {
   .swiper-about-left {
     width: 548px;
     margin-top: -147px;
+    padding-bottom: 72px;
   }
 }
 .swiper-about-right-button-wrrap,
