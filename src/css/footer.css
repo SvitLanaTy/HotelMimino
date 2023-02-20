@@ -99,15 +99,18 @@
     display: inline-block;
     margin-top: 0;
   }
+  .footer-soc-link {
+    display: flex;
+    justify-content: space-between;
+  }
 
   .footer-soc-list-item {
-    display: flex;
     width: 144px;
     height: 40px;
     border: 0.5px solid var(--accent-yellow);
     border-radius: 2px;
     padding: 10px 12px;
-    justify-content: space-between;
+
   }
 
   .footer-soc-list-item:not(:last-child) {
