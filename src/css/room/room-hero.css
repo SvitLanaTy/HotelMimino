@@ -42,14 +42,13 @@
   right: 15px;
   border: 0px;
 }
+
 .room-button {
-  width: 40px;
-  height: 40px;
   border: 0px;
   display: inline-block;
-  background: rgba(0, 0, 0, 0.65);
+  background-color: rgba(0, 0, 0, 0.65);
   border-color: none;
-  justify-content: space-between;
+  padding: 0;
 }
 .hero-btn-room:hover {
   background: #ffffff;
@@ -71,7 +70,7 @@
   letter-spacing: 0.02em;
 
   color: var(--accent-yellow);
-  background: transparent;
+  background-color: rgba(0, 0, 0, 0.4);
   border: 2px solid #ffffff;
   border-radius: 25px;
 
@@ -148,7 +147,12 @@
   gap: 22px;
   margin-left: 15px;
 }
-
+.hero-soc-list-room {
+  position: absolute;
+  display: table-caption;
+  left: 0px;
+  top: 460px;
+}
 .hero-soc-icons-room {
   fill: var(--accent-yellow);
 }
