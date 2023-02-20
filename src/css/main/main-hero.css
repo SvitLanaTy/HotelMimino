@@ -147,9 +147,11 @@
 }
 
 .hero-soc-list {
+
   display: flex;
   gap: 22px;
   margin-left: 15px;
+  opacity: 0.7;
 }
 
 .hero-soc-icons {
