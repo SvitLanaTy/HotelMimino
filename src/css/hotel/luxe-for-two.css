@@ -1,5 +1,6 @@
 .room-luxe {
   margin: 0 auto;
+  padding-top: 32px;
   padding-bottom: 32px;
 
   background-color: var(--fon-lemon);
@@ -7,7 +8,6 @@
 
 .room-luxe-secondtxt {
   font-family: 'Times New Roman', serif;
-  padding-top: 32px;
   margin-bottom: 8px;
 
   font-size: 20px;
@@ -54,8 +54,7 @@
 
 .room-luxe-photo {
   width: 244px;
-  margin-left: auto;
-
+  margin-bottom: 32px;
   background-color: #dadada;
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
@@ -63,7 +62,7 @@
 }
 
 .about-room-luxe {
-  margin-top: 28px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -113,11 +112,11 @@
   }
 
   .room-luxe {
-    padding-bottom: 145px;
+    padding-top: 70px;
+    padding-bottom: 40px;
   }
 
   .room-luxe-secondtxt {
-    padding-top: 62px;
     margin-bottom: 4px;
     font-size: 32px;
   }
@@ -134,28 +133,30 @@
   .room-luxe-primtxt {
     font-size: 16px;
     max-width: 439px;
+    margin-bottom: 0;
   }
   .room-luxe-photo {
     position: absolute;
-    top: -32px;
+    top: -102px;
     right: 112px;
     width: 400px;
   }
 
   .about-room-luxe {
+    position: absolute;
     width: 241px;
-    margin-left: auto;
-    margin-top: 209px;
+    margin-top: 0;
+    right: 47px;
+    bottom: 105px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .room-luxe {
-    padding-bottom: 182px;
+    padding-top: 72px;
   }
 
   .room-luxe-secondtxt {
-    padding-top: 72px;
   }
 
   .room-luxe-title {
@@ -175,6 +176,7 @@
   .room-luxe-photo {
     width: 460px;
     right: 180px;
+    top: -104px;
   }
 
   .about-room-luxe {

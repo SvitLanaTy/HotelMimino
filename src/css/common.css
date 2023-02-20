@@ -216,6 +216,8 @@ body {
   display: block;
   width: 100%;
   height: 100%;
+  border-radius: 2px;
+
   object-fit: cover;
 }
 
@@ -310,10 +312,10 @@ body {
   bottom: 32px;
 }
 .swiper-hotel-right-button-wrrap {
-  right: 47px;
+  left: 47px;
 }
 .swiper-hotel-left-button-wrrap {
-  left: 64px;
+  right: 47px;
 }
 
 .swiper-slide-hotel {
