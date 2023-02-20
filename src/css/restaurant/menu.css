@@ -103,9 +103,11 @@
   border-color: var(--accent-yellow);
 }
 
-.menu-button-reservation {
-  position: sticky;
-  bottom: 10px;
+@media screen and (max-width: 1023px) {
+  .menu-button-reservation {
+    position: sticky;
+    bottom: 5px;
+  }
 }
 
 @media screen and (min-width: 414px) {
