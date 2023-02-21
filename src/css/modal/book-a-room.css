@@ -32,7 +32,7 @@
   height: 54px;
   border: 1px solid #c79002;
   border-radius: 2px;
-  outline: none;
+  /* outline: none; */
   background-color: transparent;
   margin-bottom: 8px;
 
@@ -45,10 +45,10 @@
   color: #808080;
   padding-left: 17px;
 }
-.amenities-input:hover,
+/* .amenities-input:hover,
 .amenities-input:focus {
   border-color: #000000;
-}
+} */
 .amenities-input-select {
   -moz-appearance: none;
   -webkit-appearance: none;
