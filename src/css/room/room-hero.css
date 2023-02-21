@@ -50,12 +50,7 @@
   border-color: none;
   padding: 0;
 }
-
-/* .hero-btn-room:focus {
-  background: #ffffff;
-  border: 2px solid var(--accent-yellow);
-} */
-  
+ 
 .hero-btn-room {
   position: relative;
   top: 470px;
@@ -115,7 +110,7 @@
 
   font-weight: 700;
   font-size: 12px;
-  line-height: 15px;
+  line-height: 0.8;
   letter-spacing: 0.02em;
   color: #ffffff;
   text-align: left;
@@ -144,7 +139,7 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.25;
+  line-height: 0.8;
   letter-spacing: 0.01em;
   text-align: left;
 
@@ -293,6 +288,10 @@
       position: absolute;
       left: 745px;
       top: 445px;
+    }
+
+    .hero-address-room {
+      font-size: 16px;
     }
   }
 
