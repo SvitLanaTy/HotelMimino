@@ -68,6 +68,31 @@
   border-radius: 2px;
 }
 
+.contact-hotel-phone-block {
+  display: flex;
+  align-items: center;
+  /* padding: 9px 6px 7px; */
+
+  background-color: #ffffff;
+  border: 0.5px solid var(--accent-yellow);
+  border-radius: 2px;
+}
+
+.contacts-hotel-phone {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+  padding-top: 9px; 
+  padding-bottom: 7px; 
+  padding-left: 6px;
+}
+
+.contacts-hotel-second-phone {
+  padding-top: 12px; 
+  padding-bottom: 11px; 
+  padding-right: 9px;
+}
+
 .contacts-rest-block {
   width: 144px;
 }
@@ -95,9 +120,9 @@
   color: var(--color-logo);
 }
 
-.contacts-tel-link + .contacts-tel-link {
+/* .contacts-tel-link + .contacts-tel-link {
   margin-left: 12px;
-}
+} */
 
 .contacts-address-text {
   max-width: 181px;
@@ -133,7 +158,7 @@
     margin-bottom: 0;
   }
 
-  .contacts-address-block {
+  .contacts-address-block, .contact-hotel-phone-block {
     margin-left: auto;
   }
 
@@ -177,8 +202,8 @@
     width: 264px;
   }
 
-  .contacts-tel-link + .contacts-tel-link {
-    margin-left: 16px;
+  .contacts-hotel-phone {
+    margin-right: 16px;
   }
 
   .contacts-tablet-block-width {
