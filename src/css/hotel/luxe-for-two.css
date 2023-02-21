@@ -100,6 +100,18 @@
   border: 2px solid var(--accent-yellow);
 }
 
+.swiper-hotel-right-button-prev-icon,
+.swiper-hotel-right-button-next-icon {
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.swiper-hotel-right-button-prev-icon:hover,
+.swiper-hotel-right-button-next-icon:hover {
+  fill: var(--accent-yellow);
+}
+
 @media screen and (min-width: 414px) {
   .room-luxe-title {
     font-size: 24px;
