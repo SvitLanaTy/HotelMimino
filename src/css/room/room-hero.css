@@ -50,12 +50,12 @@
   border-color: none;
   padding: 0;
 }
-.hero-btn-room:hover {
+
+/* .hero-btn-room:focus {
   background: #ffffff;
-}
-.hero-btn-room:focus {
-  background: #ffffff;
-}
+  border: 2px solid var(--accent-yellow);
+} */
+  
 .hero-btn-room {
   position: relative;
   top: 470px;
@@ -78,6 +78,14 @@
   transition: background-color 250ms var(--timing-function);
 }
 
+.hero-btn-room:hover,
+.hero-btn-room:focus {
+  background: #ffffff;
+  outline-color:var(--accent-yellow) ;
+
+  border-color:  var(--accent-yellow);
+  
+}
 .hero-btn:hover,
 .hero-btn:active {
   background-color: #ffffff;
@@ -146,12 +154,14 @@
   display: flex;
   gap: 22px;
   margin-left: 15px;
+  opacity: 0.7;
 }
 .hero-soc-list-room {
   position: absolute;
   display: table-caption;
   left: 0px;
   top: 460px;
+  opacity: 0.7;
 }
 .hero-soc-icons-room {
   fill: var(--accent-yellow);
