@@ -31,7 +31,7 @@
 }
 
 .about-rest-main-post-title {
-  width: 258px; 
+  width: 258px;
   margin-bottom: 28px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -75,6 +75,18 @@
   line-height: 1.25;
   letter-spacing: 0.02em;
   color: var(--brown);
+}
+
+.swiper-about-right-button-prev-icon,
+.swiper-about-right-button-next-icon {
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.swiper-about-right-button-prev-icon:hover,
+.swiper-about-right-button-next-icon:hover {
+  fill: var(--accent-yellow);
 }
 
 /* MEDIA MOBILE */
