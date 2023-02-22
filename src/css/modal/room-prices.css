@@ -141,7 +141,24 @@
   color: #000000;
   background-color: var(--accent-yellow);
 }
+.modal-prices-cross:focus,
+.modal-prices-cross:hover {
+  stroke: black;
+}
 
+.prices-select-input-wrap:hover,
+.modal-prices-room-type:focus,
+.prices-select-input-wrap:hover,
+.modal-prices-room-type:focus {
+  background-color: white;
+  color: black;
+}
+.prices-select-input-wrap:focus-within .icon-for-select {
+  fill: black;
+}
+.prices-select-input-wrap:focus-within .modal-prices-room-type {
+  outline-color: black;
+}
 @media screen and (min-width: 414px) {
   .modal-prices-title {
     font-size: 24px;
