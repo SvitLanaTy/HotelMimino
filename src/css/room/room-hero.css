@@ -63,7 +63,7 @@
 
 .location-room {
   position: absolute;
-  bottom: 615px;
+  top: 65px;
   right: 15px;
 
   display: flex;
