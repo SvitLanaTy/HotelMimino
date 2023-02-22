@@ -139,7 +139,7 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 12px;
-  line-height: 0.8;
+  line-height: 1.25;
   letter-spacing: 0.01em;
   text-align: left;
 
@@ -239,9 +239,7 @@
       padding-top: 188px;
       padding-bottom: 15px;
     }
-    .location-room {
-      position: absolute;
-    }
+    
     .room-wraps-left {
       margin-left: 30px;
     }
@@ -305,7 +303,7 @@
         ),
         url(../../img/room/hero-bg.jpg);
     }
-
+    
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
@@ -318,6 +316,8 @@
           ),
           url(../../img/room/hero-bg-2x.jpg);
       }
+      
+      
     }
   }
 
@@ -336,13 +336,12 @@
       padding-bottom: 65px;
     }
     .location-room {
-      visibility: hidden;
       display: none;
     }
     .hero-soc-list-room {
-      visibility: hidden;
       display: none;
     }
+
     .room-wraps-left {
       position: absolute;
       margin-left: 68px;
@@ -377,5 +376,17 @@
     .room-container > .room-location {
       top: 425px;
     }
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  
+  .location-room {
+    width: 285px;
+    height: 56px;
+  }
+  .hero-soc-list-room{
+    left: 369px;
+    top: 500px;
   }
 }
