@@ -15,9 +15,6 @@
   gap: 20px;
   margin-bottom: 40px;
 }
-.modal:active {
-  overflow: hidden;
-}
 
 .table-modal-menu-title {
   font-family: 'Times New Roman', serif;
@@ -63,7 +60,6 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  outline: none;
 }
 .table-modal-input-wrap:hover,
 .table-modal-input-wrap:focus,
@@ -72,7 +68,12 @@
   background-color: white;
   color: black;
 }
-
+.table-modal-menu-form-fild:focus-within .table-modal-menu-select-icon {
+  fill: black;
+}
+.table-modal-menu-form-fild:focus-within .table-modal-menu-form-input {
+  outline-color: black;
+}
 .table-modal-menu-form-input-desc {
   font-weight: 500;
   font-size: 14px;
@@ -90,7 +91,7 @@
   line-height: calc(24 / 20);
   color: var(--hover-and-clik);
   background-color: var(--color-title);
-  border: 1px solid var(--accent-yellow);
+  border-color: 1px solid var(--accent-yellow);
   border-radius: 2px;
   width: 100%;
   height: 64px;
