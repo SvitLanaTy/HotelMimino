@@ -98,7 +98,8 @@
   transition: background-color 200ms linear, border-color 200ms linear;
 }
 .menu-button-reservation:hover,
-.menu-button-reservation:focus {
+.menu-button-reservation:focus,
+.menu-button-reservation:active {
   background-color: var(--hover-and-clik);
   border-color: var(--accent-yellow);
 }

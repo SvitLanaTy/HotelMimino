@@ -120,8 +120,8 @@
   display: block;
   margin-top: 40px;
   width: 100%;
-  background: #000000;
-  border: 1px solid var(--accent-yellow);
+  background-color: #000000;
+  border-color: 1px solid var(--accent-yellow);
   border-radius: 2px;
   padding: 20px 20px;
 
@@ -132,15 +132,14 @@
   text-align: center;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-prices-send-btn:hover,
-.modal-prices-send-btn:focus {
+.modal-prices-send-btn:focus,
+.modal-prices-send-btn:active {
   color: #000000;
   background-color: var(--accent-yellow);
-  border-color: var(--accent-yellow);
 }
 
 @media screen and (min-width: 414px) {

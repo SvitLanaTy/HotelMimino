@@ -105,7 +105,8 @@
   transition-timing-function: var(--timing-function);
 }
 .amenities-modal-btn:hover,
-.amenities-modal-btn:focus {
+.amenities-modal-btn:focus,
+.amenities-modal-btn:active {
   background: #f3c653;
   color: #000000;
 }
