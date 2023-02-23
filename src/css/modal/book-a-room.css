@@ -25,6 +25,10 @@
   margin-bottom: 20px;
   position: relative;
 }
+.modal-prices-cross:focus,
+.modal-prices-cross:hover {
+  stroke: black;
+}
 
 .amenities-input {
   display: block;
@@ -45,10 +49,12 @@
   color: #808080;
   padding-left: 17px;
 }
-/* .amenities-input:hover,
+.amenities-input:hover,
 .amenities-input:focus {
   border-color: #000000;
-} */
+  background-color: white;
+  color: black;
+}
 .amenities-input-select {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -72,6 +78,9 @@
   transform: translateY(-50%);
   fill: #c79002;
   pointer-events: none;
+}
+.amenities-select:focus-within .amenities-modal-icon {
+  fill: black;
 }
 .amenities-label {
   text-align: left;
