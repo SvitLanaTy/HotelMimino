@@ -159,6 +159,13 @@ body {
   cursor: pointer;
 }
 
+/* slider hover */
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  fill: var(--accent-yellow);
+}
+
 /* slider main about */
 
 .swiper-about-right,
@@ -304,6 +311,7 @@ body {
 }
 .swiper-hotel-right-button-wrrap,
 .swiper-hotel-left-button-wrrap {
+  fill: #000000;
   position: absolute;
 }
 
@@ -352,6 +360,103 @@ body {
 .swiper-hotel-right-button-prev-icon,
 .swiper-hotel-left-button-next-icon,
 .swiper-hotel-left-button-prev-icon {
+  width: 32px;
+  height: 32px;
+}
+
+/* slider details */
+
+.swiper-details-right,
+.swiper-details-left {
+  width: 85%;
+  padding-bottom: 48px;
+}
+.swiper-details-right {
+  margin-right: -15px;
+}
+.swiper-details-left {
+  margin-left: -15px;
+}
+
+.swiper-slide-details {
+  width: 162px;
+  height: 270px;
+}
+.swiper-slide-details:nth-child(1),
+.swiper-slide-details:nth-child(4) {
+  width: 270px;
+}
+
+/* .swiper-slide-details:nth-child(3) {
+  width: 270px;
+}  */
+
+@media screen and (min-width: 414px) {
+  .swiper-details-right,
+  .swiper-details-left {
+    width: 374px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .swiper-details-right,
+  .swiper-details-left {
+    width: 662px;
+    padding-bottom: 56px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .swiper-details-right,
+  .swiper-details-left {
+    width: 875px;
+  }
+  .swiper-slide-details:nth-child(3),
+  .swiper-slide-details:nth-child(4) {
+    width: 270px;
+  }
+}
+
+.swiper-details-right-button-wrrap,
+.swiper-details-left-button-wrrap {
+  position: absolute;
+  fill: #ffffff;
+}
+
+.swiper-details-right-button-wrrap,
+.swiper-details-left-button-wrrap {
+  bottom: 32px;
+}
+.swiper-details-right-button-wrrap {
+  left: 47px;
+}
+.swiper-details-left-button-wrrap {
+  right: 47px;
+}
+
+.swiper-details-right-button-next::after,
+.swiper-details-right-button-prev::after,
+.swiper-details-left-button-next::after,
+.swiper-details-left-button-prev::after {
+  display: none;
+}
+.swiper-details-right-button-next {
+  left: 0;
+  right: -48px;
+}
+.swiper-button-prev.swiper-details-left-button-prev {
+  right: -48px;
+}
+.swiper-details-right-button-prev {
+  left: -47px;
+}
+.swiper-button-next.swiper-details-left-button-next {
+  left: -32px;
+}
+
+.swiper-details-right-button-next-icon,
+.swiper-details-right-button-prev-icon,
+.swiper-details-left-button-next-icon,
+.swiper-details-left-button-prev-icon {
   width: 32px;
   height: 32px;
 }
