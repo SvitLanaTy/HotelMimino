@@ -1,13 +1,8 @@
 /*  ---  SECTIONS MAIN STYLES --- */
 
-.rd-container {
-  /* position: relative; */
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-  max-width: 414px;
-  height: 735px;
-  overflow: hidden;
+.restaurant-details-section {
+  padding-top: 24px;
+  padding-bottom: 40px;
 }
 
 .rd-background {
@@ -31,7 +26,7 @@
 /* --- TEXTS CONTENT --- */
 
 .rd-text-wrapper {
-  padding-top: 24px;
+  margin-bottom: 48px;
   padding-left: 125px;
 }
 
@@ -62,50 +57,9 @@
   letter-spacing: 0.02em;
   color: #bababa;
   max-width: 259px;
-  margin-bottom: 48px;
 }
 
 /* ---- SLIDER ----- */
-
-.rd-slider-list {
-  display: flex;
-  gap: 20px;
-  margin-bottom: 16px;
-}
-
-.rd-slider-img {
-  border-radius: 2px;
-  max-width: 274px;
-  max-height: 270px;
-}
-.rd-slider-buttons-wrapper {
-  display: flex;
-  gap: 32px;
-}
-.rd-slider-button-left,
-.rd-slider-button-right {
-  padding: 0;
-  width: 32px;
-  height: 32px;
-  background-color: transparent;
-  border: none;
-}
-
-.rd-slider-button-left-icon,
-.rd-slider-button-right-icon {
-  fill: #ffffff;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.rd-slider-button-left-icon:hover,
-.rd-slider-button-left-icon:focus,
-.rd-slider-button-left-icon:active,
-.rd-slider-button-right-icon:hover,
-.rd-slider-button-right-icon:focus,
-.rd-slider-button-right-icon:active {
-  fill: var(--accent-yellow);
-}
 
 /* ACTIVITY BUTTONS: MODAL & REST.MENU */
 
@@ -175,7 +129,6 @@
   .rd-background {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url('../../img/homepage/rest-details-bg-tab.jpg');
-    height: 620px;
     max-width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -196,12 +149,14 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .restaurant-details-section {
+    padding-top: 48px;
+  }
   .rd-slider {
     margin-left: 25px;
     margin-bottom: 32px;
   }
   .rd-background {
-    height: 735px;
   }
 }
 
@@ -216,13 +171,11 @@
   .rd-background {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url('../../img/homepage/rest-details-bg.jpg');
-    height: 620px;
-    max-width: 100%;
+    max-width: 1280px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin: 0 auto;
-
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -233,13 +186,11 @@
           rgba(0, 0, 0, 0.65)
         ),
         url('../../img/homepage/rest-details-bg-2x.jpg');
-        max-width: 1280px;
-        height: 620px;
+      max-width: 1280px;
     }
   }
-  
+
   .rd-text-wrapper {
-    padding-top: 48px;
     padding-left: 231px;
   }
   .rd-logo-link {
@@ -286,7 +237,7 @@
     padding-left: 52px;
     padding-right: 52px;
   }
-  
+
   .rd-text-wrapper {
     padding-left: 286px;
   }
