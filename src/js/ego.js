@@ -112,3 +112,16 @@ var swiperMainRight = new Swiper('.swiper-details-right', {
     clickable: true,
   },
 });
+
+var swiperRoom = new Swiper('.room-hero-swiper', {
+  spaceBetween: 30,
+  effect: 'fade',
+  navigation: {
+    nextEl: document.querySelector('.room-hero-right'),
+    prevEl: document.querySelector('.room-hero-left'),
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});

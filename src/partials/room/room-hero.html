@@ -1,21 +1,5 @@
 <section class="room-hero">
-  <div class="room-container-hero">
-    <div class="room-arrows">
-      <div class="room-arrow-left">
-        <button type="button" class="room-button-arrow">
-          <svg width="40" height="40" class="room-svg-button">
-            <use href="./public/favicon.svg#icon-arrow-left"></use>
-          </svg>
-        </button>
-      </div>
-      <div class="room-arrow-right">
-        <button type="button" class="room-button-arrow">
-          <svg width="40" height="40" class="room-svg-button">
-            <use href="./public/favicon.svg#icon-arrow-right"></use>
-          </svg>
-        </button>
-      </div>
-    </div>
+  <div class="container room-container-hero">
     <div class="hero-room-wrap-text wow animate__animated animate__fadeInDown">
       <h1 class="hero-title-room hero-title-room-width">ДВОМІСНИЙ НОМЕР люкс</h1>
       <p class="hero-text-room hero-text-room-width">
@@ -78,8 +62,30 @@
       <button type="button" class="hero-btn-room js-open-modal" data-modal="3">
         Переглянути ціни
       </button>
-      <div class="background-wrapper" data-room-id="1"></div>
-      <div class="background-wrapper" data-room-id="2"></div>
-      <div class="background-wrapper" data-room-id="3"></div>
   </div>
+  <div class="swiper room-hero-swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide background-room-wrapper" data-room-id="1"></div>
+      <div class="swiper-slide background-room-wrapper" data-room-id="2"></div>
+      <div class="swiper-slide background-room-wrapper" data-room-id="3"></div>
+    </div>
+    
+    <div class="room-arrows">
+      <div class=" swiper-button-prev room-hero-left room-arrow-left">
+        <button type="button" class=" room-button-arrow">
+          <svg width="40" height="40" class="room-svg-button">
+            <use href="./public/favicon.svg#icon-arrow-left"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="swiper-button-next room-hero-right room-arrow-right">
+        <button type="button" class=" room-button-arrow">
+          <svg width="40" height="40" class="room-svg-button">
+            <use href="./public/favicon.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  
 </section>
