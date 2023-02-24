@@ -74,6 +74,10 @@
 .table-modal-menu-form-fild:focus-within .table-modal-menu-form-input {
   outline-color: black;
 }
+
+.table-modal-input-wrap:focus::placeholder {
+  color: black;
+}
 .table-modal-menu-form-input-desc {
   font-weight: 500;
   font-size: 14px;
